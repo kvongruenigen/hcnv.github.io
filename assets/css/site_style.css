@@ -1,0 +1,28 @@
+/**
+ELIXIR colors:
+ * orange: #F47D1F
+ * dark blue: #023453
+**/
+
+:root {
+  --site-color: #023453;
+}
+
+#logo_topleft {
+  margin-top: 10px;
+  margin-left: 12px;
+}
+
+#logo_topright {
+  margin-top: 10px;
+  margin-right: 12px;
+  width: 36px;
+}
+
+#sitelogo {}
+
+#outlinks {}
+
+#catlinks {}
+
+#tagcloud {}
