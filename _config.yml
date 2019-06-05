@@ -3,7 +3,7 @@ tagline: 'Genomic Copy Number Variations in Humans'
 description: |
   This is the website for the h-CNV community, originating in a project supported through ELIXIR's data communities initiative 
 keywords: CNV, genomics, genome variants, genome sequencing, genomic arrays
-site_domain_name: baudisgroup.github.io/progenetix-site-template
+site_domain_name: hcnv.github.io
 url: 'https://hcnv.github.io'
 
 # The baseurl parameter is an empty string if the site is represented at the root 
@@ -41,12 +41,12 @@ collections_dir: pages  # optional; here, all collections are inside "/pages"
 # navigation blocks can be used to separate different categories and add e.g. 
 # external link block(s), in combination with a properly modified layout
 nav_cat_blocks:     # comma-separated "label,type,label_visibility"
-  general: 'General,categories,hide'
+  standard: 'General,categories,hide'
   related_sites: 'Related Sites,related_sites,show'
   github_projects: 'Github Projects,github_projects,show'
 
 # content of the different navigation blocks
-general:
+standard: 
   general: 'About...'
   news: 'News & Press'
   events: Events
