@@ -21,10 +21,12 @@ tags:
 
 ## {{page.title}}
 
+ELIXIR h-CNV project lead  
 Aix-Marseille University - INSERM  
+ELIXIR-FR  
 
 <!--more-->
 
-email [david.salgado@univ-amu.fr](mailto:david.salgado@univ-amu.fr)  
-web []()  
+email [christophe.beroud@inserm.fr](mailto:christophe.beroud@inserm.fr)  
+web [MMG](https://www.marseille-medical-genetics.org/fr/c-beroud/)  
 

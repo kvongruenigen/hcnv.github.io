@@ -26,5 +26,5 @@ Aix-Marseille University - INSERM
 <!--more-->
 
 email [david.salgado@univ-amu.fr](mailto:david.salgado@univ-amu.fr)  
-web []()  
+web [MMG](https://www.marseille-medical-genetics.org/fr/c-beroud/)  
 

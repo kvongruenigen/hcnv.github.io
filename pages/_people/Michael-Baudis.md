@@ -10,8 +10,6 @@ category:
 tags:
   - contacts
   - people
-  - developers
-  - .featured
 ---
 
 {% for static_file in site.static_files %}
@@ -22,7 +20,6 @@ tags:
 
 ## {{page.title}}
 
-Co-chair GA4GH Discovery Work Stream (Beacon & SchemaBlocks)
 Professor of Bioinformatics  
 University of Zurich  
 Swiss Institute of Bioinformatics
