@@ -10,7 +10,7 @@ tags:
   - abstract
 www_link: http://events.hgvs.org
 pdf_file_name: "2019-06-14-programme-abstracts-HGVS.pdf"
-pdf_file_type: slides
+pdf_file_type: abstracts
 ---
 
 
