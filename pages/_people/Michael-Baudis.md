@@ -23,6 +23,8 @@ tags:
 Professor of Bioinformatics  
 University of Zurich  
 Swiss Institute of Bioinformatics
+GA4GH Discovery Work Stream  
+ELIXIR Beacon Project  
 
 <!--more-->
 
