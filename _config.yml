@@ -33,9 +33,6 @@ collections:
   people:
     output: true
     permalink: /people/:path/
-  howto:
-    output: true
-    permalink: /howto/:path/
   minutes:
     output: true
     permalink: /minutes/:path/
@@ -87,6 +84,7 @@ cloud_tags:
   - presentation
   - slides
   - documentation
+  - hackathon
   - FAQ
   - press
   - website
