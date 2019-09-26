@@ -10,7 +10,7 @@ tags:
   - talk
   - abstract
   - hackathon
-www_link: http://events.hgvs.org
+www_link: https://www.biohackathon-europe.org
 pdf_file_name:
 pdf_file_type:
 ---
