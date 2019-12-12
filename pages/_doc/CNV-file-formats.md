@@ -19,12 +19,12 @@ tags:
 
 ### VCF
 
-* VCF specification [v4.2 PDF &nearr;](https://samtools.github.io/hts-specs/VCFv4.2.pdf)
+* VCF specification [v4.2 PDF](https://samtools.github.io/hts-specs/VCFv4.2.pdf)
 
 
 ### BED files and other columnar segment files 
 
-* BED file documentation at [UCSC genome browser &nearr;](https://genome.ucsc.edu/FAQ/FAQformat.html#format1)
+* BED file documentation at [UCSC genome browser](https://genome.ucsc.edu/FAQ/FAQformat.html#format1)
 
 
 ### Schema-defined files and databases
