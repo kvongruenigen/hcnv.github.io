@@ -103,6 +103,10 @@ Development of the _Progenetix_ format closely follows the work of the GA4GH GKS
 group and is expected, over time, to adopt core objects and concepts from
 _vr-spec_ [repository](https://github.com/ga4gh/vr-spec).
 
+The _Progenetix_ data serves as the repository behind the
+Beacon<span style="color: red; font-weight: 800;">+</span> forward looking
+test implementation of the [ELIXIR Beacon](http://beacon-project.io) project.
+
 ##### Progenetix CNV example
 
 ```
