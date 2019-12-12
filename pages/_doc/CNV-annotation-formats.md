@@ -19,10 +19,14 @@ tags:
 
 ### ISCN
 
+##### Links
+
 * ISCN 2016 is the latest edition, available as book (Karger)
 
 
 ### HGVS
+
+##### Links
 
 * HGVS DNA [Sequence Variant Nomenclature](http://varnomen.hgvs.org/recommendations/DNA/)
 
@@ -32,6 +36,8 @@ tags:
 While VCF is a file format, originally developed (and optimised) for the 
 representation of possibly recurring variants across a set of analyses, it also
 allows for the storage & representation of CNV events.
+
+##### Links
 
 * VCF specification [v4.2 PDF](https://samtools.github.io/hts-specs/VCFv4.2.pdf)
 
@@ -51,6 +57,8 @@ does not yet include the option to represent structural variants. However, the
 internal roadmap of the project points towards an extension for CNV 
 representation in 2020.
 
+##### Links
+
 * _vr-spec_ [repository](https://github.com/ga4gh/vr-spec)
 * [documentation](https://vr-spec.readthedocs.io/en/1.0/)
 
@@ -60,8 +68,10 @@ representation in 2020.
 The original GA4GH `Variant` schema was essentially a rewritten version of parts
 of the VCF specification into an object model.
 
+##### Links
+
 * `Variant` documentation for the [GA4GH schema](https://ga4gh-schemas.readthedocs.io/en/latest/schemas/variants.proto.html#protobuf.Variant)
-* Protobuf version of the `Variant` object in the (deprecated) GA4GH schema [&nearr;](https://github.com/ga4gh/ga4gh-schemas/blob/master/src/main/proto/ga4gh/variants.proto#L145)
+* Protobuf version of the `Variant` object in the (deprecated) [GA4GH schema](https://github.com/ga4gh/ga4gh-schemas/blob/master/src/main/proto/ga4gh/variants.proto#L145)
 
 
 ### Ad-Hoc & "Community" Formats
@@ -103,6 +113,8 @@ _vr-spec_ [repository](https://github.com/ga4gh/vr-spec).
 	"updated" : "2018-12-06 11:17:17.485238"
 }
 ```
+
+##### Links
 
 * schema in _progenetix/schemas_ [code repository](https://github.com/progenetix/schemas/blob/master/main/yaml/variant.yaml)
 
