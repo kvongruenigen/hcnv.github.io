@@ -44,10 +44,11 @@ nav_cat_blocks:     # comma-separated "label,type,label_visibility"
 
 # content of the different navigation blocks
 standard:
-  general: 'About...'
+  about: 'About...'
   news: 'News & Events'
   people: Participants
   howto: 'Examples, Guides & FAQ'
+  resources: 'Resources & Databases'
   minutes: 'Meeting minutes'
   contact: Contacts
 
@@ -77,6 +78,7 @@ cloud_tags:
   - code
   - contacts
   - contributors
+  - databases
   - documentation
   - developers
   - presentation

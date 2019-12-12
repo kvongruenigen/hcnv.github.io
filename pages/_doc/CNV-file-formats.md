@@ -11,10 +11,11 @@ category:
 tags:
   - standards
   - files
-  - standards
 ---
 
 ## {{page.title}}
+
+<!--more-->
 
 ### VCF
 
