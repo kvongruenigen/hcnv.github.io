@@ -19,5 +19,5 @@ As a satellite meeting of the [European Human Genetics Conference](https://www.e
 
 Further information:
 
-* Abstract Book [PDF](/assets/articles_and_presentations/2019-06-14-programme-abstracts-HGVS.pdf)
-* Michael Baudis: Genomic Exchange Standards from Cancer Genome Data [PDF](/assets/articles_and_presentations/2019-06-14___Michael-Baudis__genomic-Exchange-Standards-from-Cancer-Genome-Data__HGVS2019.pdf) 
+* Abstract Book [PDF](/pdf/2019-06-14-programme-abstracts-HGVS.pdf)
+* Michael Baudis: Genomic Exchange Standards from Cancer Genome Data [PDF](/pdf/2019-06-14___Michael-Baudis__genomic-Exchange-Standards-from-Cancer-Genome-Data__HGVS2019.pdf) 

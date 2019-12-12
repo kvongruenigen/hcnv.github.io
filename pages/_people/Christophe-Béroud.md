@@ -27,6 +27,6 @@ ELIXIR-FR
 
 <!--more-->
 
-email [christophe.beroud@inserm.fr](mailto:christophe.beroud@inserm.fr)  
-web [MMG](https://www.marseille-medical-genetics.org/fr/c-beroud/)  
+* email [christophe.beroud@inserm.fr](mailto:christophe.beroud@inserm.fr)  
+* web [MMG](https://www.marseille-medical-genetics.org/fr/c-beroud/)  
 
