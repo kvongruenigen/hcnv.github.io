@@ -19,6 +19,21 @@ tags:
 
 ### ISCN
 
+Sine 1963, the _International System for Human Cytogenetic Nomenclature_ (ISCN)
+has provided standards and guidelines for annotation of human karyotypes and
+cytogenetic abnormalities.
+
+Recent editions have tried to accomodate for genomic variants derived from
+molecular and molecular-cytogenetics technologies such as FISH, genomic
+microarrays and DNA sequencing.
+
+##### Examples (CNV)
+
+* `46,XX,trp(8)(q21q24)`
+* `ish cgh dim(17p12p11),enh(8)(q24)`
+    - chromosomal Comparativ Genomic Hybridization (CGH)
+
+
 ##### Links
 
 * ISCN 2016 is the latest edition, available as book (Karger)
