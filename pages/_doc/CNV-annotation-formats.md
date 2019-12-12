@@ -25,7 +25,7 @@ tags:
 
 ### HGVS
 
-* HGVS Sequence Variant Nomenclature [&nearr;](http://varnomen.hgvs.org)
+* HGVS DNA Sequence Variant Nomenclature [&nearr;](http://varnomen.hgvs.org/recommendations/DNA/)
 
 
 ### VCF
@@ -35,7 +35,6 @@ representation of possibly recurring variants across a set of analyses, it also
 allows for the storage & representation of CNV events.
 
 * VCF specification [v4.2 PDF &nearr;](https://samtools.github.io/hts-specs/VCFv4.2.pdf)
-
 
 
 ### Variant Schemas

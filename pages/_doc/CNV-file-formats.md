@@ -27,3 +27,10 @@ tags:
 
 
 ### Schema-defined files and databases
+
+Schema-defined variant annotations can be serialised and stored or transmitted 
+using e.g. the [JSON](https://www.json.org/json-en.html) format.
+
+For information about some of the used schemas please see the 
+[CNV Annotation Formats](/doc/CNV-annotation-formats.html) page.
+
