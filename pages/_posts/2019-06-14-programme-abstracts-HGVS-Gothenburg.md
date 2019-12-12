@@ -3,7 +3,7 @@ title: "HGVS 2019 Gothenburg"
 layout: default
 date: 2019-06-14
 category:
-  - events
+  - news
 tags:
   - talk
   - presentation

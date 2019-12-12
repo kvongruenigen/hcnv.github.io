@@ -4,7 +4,7 @@ layout: default
 date: 2019-06-14
 authors: '@mbaudis'
 category:
-  - events
+  - news
 tags:
   - talk
   - presentation

@@ -5,7 +5,7 @@ date: 2019-11-18
 author: ["@mbaudis"]
 excerpt_separator: <!--more-->
 category:
-  - events
+  - news
 tags:
   - talk
   - abstract

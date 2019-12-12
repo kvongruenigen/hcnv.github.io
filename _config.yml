@@ -27,9 +27,6 @@ collections:
   doc:
     output: true
     permalink: /doc/:path/
-  general:
-    output: true
-    permalink: /general/:path/
   people:
     output: true
     permalink: /people/:path/
@@ -48,8 +45,7 @@ nav_cat_blocks:     # comma-separated "label,type,label_visibility"
 # content of the different navigation blocks
 standard:
   general: 'About...'
-  news: 'News & Press'
-  events: 'Events & Presentations'
+  news: 'News & Events'
   people: Participants
   howto: 'Examples, Guides & FAQ'
   minutes: 'Meeting minutes'
@@ -77,18 +73,19 @@ tags-date-sorted:
 
 # Only tags listed here are represented in the tag cloud.
 cloud_tags:
+  - Beacon
   - code
   - contacts
   - contributors
+  - documentation
   - developers
   - presentation
   - slides
-  - documentation
+  - standards
   - hackathon
   - FAQ
   - press
   - website
-  - minutes
 
 # additional Jekyll instructions
 plugins:
