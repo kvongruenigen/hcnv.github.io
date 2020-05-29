@@ -33,6 +33,9 @@ collections:
   minutes:
     output: true
     permalink: /minutes/:path/
+  schemas:
+    output: true
+    permalink: /schemas/:path/
 collections_dir: pages  # optional; here, all collections are inside "/pages"
 
 # navigation blocks can be used to separate different categories and add e.g.
