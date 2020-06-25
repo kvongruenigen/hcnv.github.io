@@ -1,7 +1,7 @@
 ---
 title: "Christophe Béroud"
 layout: default
-#image_file: 'cberoud.png'
+#image_file: 'kpoterl.jpg'
 excerpt_link:
 excerpt_separator: <!--more-->
 category:
@@ -28,6 +28,6 @@ ELIXIR-UK
 
 <!--more-->
 
-* email [k.poterlowicz1@bradford.ac.uk](mailto:k.poterlowicz1@bradford.ac.u)  
+* email [k.poterlowicz1@bradford.ac.uk](mailto:k.poterlowicz1@bradford.ac.uk)  
 * web [MMG]https://www.bradford.ac.uk/staff/KPoterlowicz1)  
 
