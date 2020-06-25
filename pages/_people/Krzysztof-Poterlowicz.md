@@ -1,7 +1,7 @@
 ---
-title: "Christophe Béroud"
+title: "Krzysztof Poterlowicz"
 layout: default
-#image_file: 'kpoterl.jpg'
+image_file: 'kpoterl.jpg'
 excerpt_link:
 excerpt_separator: <!--more-->
 category:
@@ -10,7 +10,6 @@ category:
 tags:
   - contacts
   - people
-  - .featured
 ---
 
 {% for static_file in site.static_files %}
