@@ -9,7 +9,7 @@ tags:
   - talk
   - presentation
   - slides
-www_link: 
+www_link:
 pdf_file_name: 2019-06-19___h-cnv-ELIXIR-All-Hands-2019-kick-off-workshop.pdf
 pdf_file_type: slides
 ---
