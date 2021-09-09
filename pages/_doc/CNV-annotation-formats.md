@@ -4,13 +4,12 @@ permalink: /doc/CNV-annotation-formats.html
 layout: default
 date:   2019-12-12
 author: "@mbaudis"
-excerpt_link: 
+excerpt_link:
 excerpt_separator: <!--more-->
 category:
   - standards
 tags:
   - standards
-  - files
 ---
 
 ## {{page.title}}
@@ -48,7 +47,7 @@ microarrays and DNA sequencing.
 
 ### VCF
 
-While VCF is a file format, originally developed (and optimised) for the 
+While VCF is a file format, originally developed (and optimised) for the
 representation of possibly recurring variants across a set of analyses, it also
 allows for the storage & representation of CNV events.
 
@@ -69,7 +68,7 @@ beyond).
 The first release of the [GA4GH Variation Representation Specification
 ([vr-spec v1.0](https://github.com/ga4gh/vr-spec/releases/tag/1.0.0))
 does not yet include the option to represent structural variants. However, the
-internal roadmap of the project points towards an extension for CNV 
+internal roadmap of the project points towards an extension for CNV
 representation in 2020.
 
 ##### Links
@@ -93,9 +92,9 @@ of the VCF specification into an object model.
 
 #### _Progenetix_ `Variant` schema
 
-The [Progenetix](http://progenetix.org) cancer genome profiling resource (and 
+The [Progenetix](http://progenetix.org) cancer genome profiling resource (and
 the) sister project [arrayMap](http://arraymap.org) store their millions of CNVs
-in as data objects in [MongoDB](http://mongodb.org) document databases. The 
+in as data objects in [MongoDB](http://mongodb.org) document databases. The
 format of the single variants is based on the original GA4GH schema (see above),
 with some extensions and modifications.
 
@@ -136,5 +135,3 @@ test implementation of the [ELIXIR Beacon](http://beacon-project.io) project.
 ##### Links
 
 * schema in _progenetix/schemas_ [code repository](https://github.com/progenetix/schemas/blob/master/main/yaml/variant.yaml)
-
-
