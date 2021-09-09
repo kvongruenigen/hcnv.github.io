@@ -8,6 +8,7 @@ www_link:
 www_links_formatted:
 category:
   - resources
+  - news
 tags: # please delete unneeded options
   - projects
   - IS_2021_Exchange
