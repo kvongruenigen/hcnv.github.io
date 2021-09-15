@@ -1,7 +1,7 @@
 ---
 title: "David Salgado"
 layout: default
-image_file: 'dsalgado.png'
+image_file: 'dsalgado.jpg'
 excerpt_link:
 excerpt_separator: <!--more-->
 category:
