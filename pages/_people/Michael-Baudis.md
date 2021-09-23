@@ -15,6 +15,8 @@ tags:
 
 ## {{page.title}}
 
+<br/>
+
 {%- for static_file in site.static_files -%}
   {%- if static_file.path contains page.image_file -%}
 <img style="float: right; width: 80px;" src="{{ static_file.path | relative_url}}" />
