@@ -15,13 +15,13 @@ tags:
 
 ## {{page.title}}
 
-{%- for static_file in site.static_files -%}
+{% for static_file in site.static_files %}
   {% if static_file.path contains page.image_file %}
 <img style="float: right; width: 80px; margin-top: -30px; margin-right: 10px;" src="{{ static_file.path | relative_url}}" />
   {%- endif -%}
 {%- endfor -%}
 
-Postdoctoral Researcher
+Postdoctoral Researcher  
 Biozentrum, University of Basel
 
 <!--more-->
