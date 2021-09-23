@@ -10,21 +10,24 @@ category:
 tags:
   - contacts
   - people
+  - IS_2021_Data
+  - IS_2021_Exchange
 ---
 
 
 ## {{page.title}}
 
-<br/>
-
 {%- for static_file in site.static_files -%}
-  {%- if static_file.path contains page.image_file -%}
-<img style="float: right; width: 80px;" src="{{ static_file.path | relative_url}}" />
+  {% if static_file.path contains page.image_file %}
+<img style="float: right; width: 80px; margin-top: -30px; margin-right: 10px;" src="{{ static_file.path | relative_url}}" />
   {%- endif -%}
-{%- endfor -%}Professor of Bioinformatics  
+{%- endfor -%}
+
+Professor of Bioinformatics  
 University of Zurich  
-Swiss Institute of Bioinformatics
-GA4GH Discovery Work Stream  
+Swiss Institute of Bioinformatics  
+Co-chair GA4GH Discovery Work Stream  
+Co-lead ELIXIR hCNV Community  
 ELIXIR Beacon Project  
 
 <!--more-->

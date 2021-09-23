@@ -1,7 +1,7 @@
 ---
-title: "Christophe Béroud"
+title: "Timothee Cezard"
 layout: default
-image_file: 'cberoud.png'
+image_file: 'tcezard.jpg'
 excerpt_link:
 excerpt_separator: <!--more-->
 category:
@@ -10,8 +10,6 @@ category:
 tags:
   - contacts
   - people
-  - .featured
-  - IS_2021_Data
   - IS_2021_Exchange
 ---
 
@@ -23,12 +21,11 @@ tags:
   {%- endif -%}
 {%- endfor -%}
 
-Professor of Human Genetics  
-Aix-Marseille University - INSERM  
-Co-lead ELIXIR hCNV Community
-ELIXIR-FR  
+EMBL-EBI  
+Project Lead - Keane team: European Genome-phenome Archive and European Variation Archive  
 
 <!--more-->
 
-* email [christophe.beroud@inserm.fr](mailto:christophe.beroud@inserm.fr)  
-* web [MMG](https://www.marseille-medical-genetics.org/fr/c-beroud/)  
+* email: tcezard [at] ebi.ac.uk
+* web: [ED Genomics](https://www.ebi.ac.uk/about/people/timothee-cezard)
+* ORCID iD: [0000-0002-5626-270X](http://europepmc.org/search?query=AUTHORID:%220000-0002-5626-270X%22&sortby=Date)

@@ -1,7 +1,7 @@
 ---
-title: "Christophe Béroud"
+title: "Alexander Kanitz"
 layout: default
-image_file: 'cberoud.png'
+image_file: 'akanitz.jpg'
 excerpt_link:
 excerpt_separator: <!--more-->
 category:
@@ -10,8 +10,6 @@ category:
 tags:
   - contacts
   - people
-  - .featured
-  - IS_2021_Data
   - IS_2021_Exchange
 ---
 
@@ -23,12 +21,10 @@ tags:
   {%- endif -%}
 {%- endfor -%}
 
-Professor of Human Genetics  
-Aix-Marseille University - INSERM  
-Co-lead ELIXIR hCNV Community
-ELIXIR-FR  
+Postdoctoral Researcher
+Biozentrum, University of Basel
 
 <!--more-->
 
-* email [christophe.beroud@inserm.fr](mailto:christophe.beroud@inserm.fr)  
-* web [MMG](https://www.marseille-medical-genetics.org/fr/c-beroud/)  
+* email: [alexander.kanitz@unibas.ch](mailto:alexander.kanitz@unibas.ch)
+* web: [Biozentrum](http://www.biozentrum.unibas.ch/)
