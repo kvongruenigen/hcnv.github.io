@@ -22,10 +22,9 @@ tags:
 {%- endfor -%}
 </h2>
 
-* Elixir-Uk Training Co-ordinator  
+* Elixir-UK Training Co-ordinator  
 * Senior Lecturer in Bioinformatics and Biostatistics  
-* University of Bradford - UK  
-* ELIXIR-UK
+* University of Bradford, UK  
 
 <!--more-->
 
