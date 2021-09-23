@@ -14,7 +14,6 @@ tags:
   - IS_2021_Exchange
 ---
 
-
 <h2>{{page.title}}
 {%- for static_file in site.static_files -%}
   {%- if static_file.path contains page.image_file -%}
