@@ -31,7 +31,7 @@ tags:
 * PMCID: PMC8285936.
 * bioRxiv. doi: https://doi.org/10.1101/2021.02.15.428237
 
-![DATABASE logo](http://progenetix.org/assets/img/logo-database-journal-300x150.png){: style="float: right; width: 150px; margin-top: -100px;"}This article provides an overview of recent changes and additions to the Progenetix database and the services provided through the resource.
+![DATABASE logo](http://info.baudisgroup.org/assets/img/logo-database-journal-300x150.png){: style="float: right; width: 150px; margin-top: -100px;"}This article provides an overview of recent changes and additions to the Progenetix database and the services provided through the resource.
 
 <!--more-->
 
@@ -49,4 +49,4 @@ The first version of the article had been posted at biorXiv on 2021-02-15.
 
 * article at [OUP DATABASE](https://academic.oup.com/database/article/doi/10.1093/database/baab043/6323245)
 * article at [biorXiv](https://www.biorxiv.org/content/10.1101/2021.02.15.428237v)
-* article [PDF](http://progenetix.org/pdf/2021-06-30___Huang-et-al.__The-Progenetix-oncogenomic-resource-in-2021__DATABASE.pdf)
+* article [PDF](http://info.baudisgroup.org/pdf/2021-06-30___Huang-et-al.__The-Progenetix-oncogenomic-resource-in-2021__DATABASE.pdf)
