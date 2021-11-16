@@ -1,15 +1,12 @@
 ---
-title: "David Salgado"
+title: "Rahel Paloots"
 layout: default
-excerpt_link:
+excerpt_link: https://info.baudisgroup.org/group/Rahel_Paloots/
 excerpt_separator: <!--more-->
 category:
-  - contact
   - people
 tags:
-  - contacts
   - people
-  - .featured
   - IS_2021_Data
   - IS_2021_Exchange
 ---
@@ -25,10 +22,8 @@ tags:
     {%- endif -%}
 {%- endfor -%}</h2>
 
-* Co-lead ELIXIR hCNV Community
-* Aix-Marseille University - INSERM
+* Department of Molecular Life Sciences, University of Zurich
+* Swiss Institute of Bioinformatics SIB
+* [Progenetix](http://progenetix.org) project
 
 <!--more-->
-
-email [david.salgado@univ-amu.fr](mailto:david.salgado@univ-amu.fr)  
-web [MMG](https://www.marseille-medical-genetics.org/fr/c-beroud/)  

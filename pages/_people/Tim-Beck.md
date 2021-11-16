@@ -1,16 +1,12 @@
 ---
-title: "David Salgado"
+title: "Tim Beck"
 layout: default
 excerpt_link:
 excerpt_separator: <!--more-->
 category:
-  - contact
   - people
 tags:
-  - contacts
   - people
-  - .featured
-  - IS_2021_Data
   - IS_2021_Exchange
 ---
 
@@ -25,10 +21,6 @@ tags:
     {%- endif -%}
 {%- endfor -%}</h2>
 
-* Co-lead ELIXIR hCNV Community
-* Aix-Marseille University - INSERM
+* University of Leicester
 
 <!--more-->
-
-email [david.salgado@univ-amu.fr](mailto:david.salgado@univ-amu.fr)  
-web [MMG](https://www.marseille-medical-genetics.org/fr/c-beroud/)  
