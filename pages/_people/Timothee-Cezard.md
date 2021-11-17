@@ -23,10 +23,10 @@ tags:
 {%- endfor -%}</h2>
 
 * EMBL-EBI  
-* Project Lead - Keane team: European Genome-phenome Archive and European Variation Archive  
+* Project Lead - The European Variation Archive  
 
 <!--more-->
 
 * email: tcezard [at] ebi.ac.uk
-* web: [ED Genomics](https://www.ebi.ac.uk/about/people/timothee-cezard)
+* web: [EBI](https://www.ebi.ac.uk/about/people/timothee-cezard)
 * ORCID iD: [0000-0002-5626-270X](http://europepmc.org/search?query=AUTHORID:%220000-0002-5626-270X%22&sortby=Date)
