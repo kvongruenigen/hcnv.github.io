@@ -5,7 +5,7 @@ date: 2021-09-09
 excerpt_separator: <!--more-->
 permalink: /studies/IS_2021_Exchange.html
 www_link:
-www_links_formatted:
+www_links_formatted: '<a href="/pdf/2020-10-31___2021-2023_hCNV_IS-use-cases-project__final.pdf">[submitted study plan] (PDF)</a>'
 category:
   - resources
   - news
