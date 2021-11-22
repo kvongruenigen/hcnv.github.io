@@ -5,7 +5,7 @@ date: 2021-09-09
 excerpt_separator: <!--more-->
 permalink: /studies/IS_2021_Data.html
 www_link:
-www_links_formatted:
+www_links_formatted: '<a href="/pdf/2020-10-31___hCNV_IS-data-workflows__final.pdf">[submitted study plan] (PDF)</a>'
 category:
   - resources
   - news
