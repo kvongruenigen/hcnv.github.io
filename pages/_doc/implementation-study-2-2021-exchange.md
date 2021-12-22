@@ -13,7 +13,7 @@ category:
   - news
 tags: # please delete unneeded options
   - projects
-  - IS_2021_Exchange
+  - IS_2021_hCNV-X
 ---
 
 ## Beacon and Beyond — Implementation-driven standards and protocols for CNV discovery and data exchange

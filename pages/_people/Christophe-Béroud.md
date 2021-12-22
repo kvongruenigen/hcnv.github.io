@@ -10,7 +10,7 @@ tags:
   - people
   - .featured
   - IS_2021_Data
-  - IS_2021_Exchange
+  - IS_2021_hCNV-X
 ---
 
 <h2>{{page.title}}
