@@ -6,7 +6,7 @@ excerpt_separator: <!--more-->
 permalink: /studies/IS_2019-2021.html
 www_link:
 www_links_formatted:
-  - '<a href="/pdf/2019-02-06-hCNV_IS_2019_2021.pdf">[submitted study plan] (PDF)</a>'
+  - '<a href="/pdf/2019-02-06-hCNV_IS_2019_2021.pdf">submitted study plan [PDF]</a>'
 category:
   - resources
   - news
