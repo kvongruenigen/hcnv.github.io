@@ -1,7 +1,7 @@
 ---
 title: "hCNV Community Study 2019-2021"
 layout: default
-date: 2021-12-31
+date: 2019-06-01
 excerpt_separator: <!--more-->
 permalink: /studies/IS_2019-2021.html
 www_link:
