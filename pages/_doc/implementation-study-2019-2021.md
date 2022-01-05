@@ -1,25 +1,25 @@
 ---
 title: "hCNV Community Study 2019-2021"
 layout: default
-date: 2021-09-09
+date: 2021-12-31
 excerpt_separator: <!--more-->
 permalink: /studies/IS_2019-2021.html
 www_link:
 www_links_formatted:
-  - '<a href="/pdf/2020-10-31___hCNV_IS-data-workflows__final.pdf">[submitted study plan] (PDF)</a>'
+  - '<a href="/pdf/2019-02-06-hCNV_IS_2019_2021.pdf">[submitted study plan] (PDF)</a>'
 category:
   - resources
   - news
 tags: # please delete unneeded options
   - projects
-  - IS_2021_Data
+  - IS_2019-2021
 ---
 
 ## Reference hCNV datasets, use-case workflows and benchmarking
 #### ELIXIR implementation study, 2021-2023
 ### Leads: Christophe Béroux & David Salgado
 
-The ELIXIR human CNV Community (hCNV) was  created in December 2018. In two years contributions to the field have been numerous (ELIXIR IS, Rare Diseases, Federated Human Data, Beacons, GA4GH, EJP-RD and Beyond 1 Million Genomes - B1MG). The Community now aims to address the major challenge of NGS data interpretation in the era of whole genome sequencing: Copy Number Variation.
+The human CNV community (h-CNV) has been officially created in December 2018. It aims to address the major challenge of NGS data interpretation in the era of whole genome sequencing for the most frequent mutation type: Copy Number Variation. Seven topics have been identified during the kick-off meeting and further refined with all h-CNV partners. This ultimately led to the proposal described in this implementation study.
 
 <!--more-->
 
