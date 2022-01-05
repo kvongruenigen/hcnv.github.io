@@ -26,3 +26,4 @@ The human CNV community (h-CNV) has been officially created in December 2018. It
 
 * D5.1 ELIXIR hCNV Community: CNV annotations [[PDF](/pdf/2019-12-31-D5.1-CNV-annotations.pdf)]
 * D3.2 Improvement of community formats for CNV exchange [[PDF](/pdf/2019-12-12-hCNV-D3.2-requirements-CNV-file-and-data-exchange-report.pdf)]
+* D4.1 & 4.2 Enabling CNV data discovery in diagnostic and phenotypic context [[PDF](/pdf/2020-11-06-hCNV_WP4_deliverables_4.1_4.2.pdf)]
