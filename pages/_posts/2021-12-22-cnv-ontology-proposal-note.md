@@ -12,6 +12,7 @@ tags:
   - news
   - IS_2021_hCNV-X
   - standards
+  - ontologies
 ---
 
 ## {{ page.title }}
