@@ -36,7 +36,7 @@ Terms for genomic array types used in CNV detection were added to the existing
 * large-insert clone DNA microarray ([EFO:0010938](http://www.ebi.ac.uk/efo/EFO_0010938))
 * oligonucleotide DNA microarray ([EFO:0010939](http://www.ebi.ac.uk/efo/EFO_0010939))
 * SNP array ([EFO:0002703](http://www.ebi.ac.uk/efo/EFO_0002703))
-  - thus existed but was re-assigned as child of EFO:0010939
+  - the term existed but was re-assigned as child of EFO:0010939
 * oligonucleotide DNA microarray ([EFO:0010939](http://www.ebi.ac.uk/efo/EFO_0010939))
 
 There is also now (2022) a [proposal](https://github.com/EBISPOT/efo/issues/1404)
