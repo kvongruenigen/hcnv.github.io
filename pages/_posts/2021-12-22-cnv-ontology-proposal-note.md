@@ -28,4 +28,8 @@ Everybody is welcome to contribute to the editing of the proposal!
 
 The CNV representation ontology is targeted for adoption by Sequence Ontology (SO)
 and then to be used by an updated version of the VRS standard. Please see the
-discussions linked from the [proposal page](https://github.com/hcnv/hCNV-X/blob/main/docs/cnv-ontology-proposal.md). 
+discussions linked from the [proposal page](https://github.com/hcnv/hCNV-X/blob/main/docs/cnv-ontology-proposal.md).
+
+#### More ontologies...
+
+... with h-CNV contributions can be found under the [`ontologies`(/tags/ontologies.html) tag.
