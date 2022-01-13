@@ -32,4 +32,4 @@ discussions linked from the [proposal page](https://github.com/hcnv/hCNV-X/blob/
 
 #### More ontologies...
 
-... with h-CNV contributions can be found under the [`ontologies`(/tags/ontologies.html) tag.
+... with h-CNV contributions can be found under the [`ontologies`](/tags/ontologies.html) tag.
