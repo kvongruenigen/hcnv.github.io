@@ -49,7 +49,6 @@ nav_cat_blocks:     # comma-separated "label,type,label_visibility"
 standard:
   about: 'About...'
   news: 'News & Events'
-  'Genome Blog': "https://cnvar.org/genome-blog/"
   people: Participants
   standards: 'Standards and Guidelines'
   resources: 'Studies & Resources'
@@ -57,6 +56,7 @@ standard:
   contact: Contacts
 
 related_sites:
+  'Genome Blog': "https://cnvar.org/genome-blog/"
   'h-CNV @ ELIXIR': 'https://elixir-europe.org/about-us/implementation-studies/2019-hcnv'
   'Beacon Project': 'https://beacon-project.io'
   'Beacon @ ELIXIR': 'http://www.elixir-europe.org/about-us/implementation-studies/beacons'
