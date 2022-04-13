@@ -49,6 +49,7 @@ nav_cat_blocks:     # comma-separated "label,type,label_visibility"
 standard:
   about: 'About...'
   news: 'News & Events'
+  'Genome Blog': "https://cnvar.org/genome-blog/"
   people: Participants
   standards: 'Standards and Guidelines'
   resources: 'Studies & Resources'
