@@ -55,8 +55,9 @@ standard:
   howto: 'Examples, Guides & FAQ'
   contact: Contacts
 
+
 related_sites:
-  'Genome Blog': "https://genome.blog"
+  'Genome Blog': "http://genome.blog"
   'h-CNV @ ELIXIR': 'https://elixir-europe.org/about-us/implementation-studies/2019-hcnv'
   'Beacon Project': 'https://beacon-project.io'
   'Beacon @ ELIXIR': 'http://www.elixir-europe.org/about-us/implementation-studies/beacons'
