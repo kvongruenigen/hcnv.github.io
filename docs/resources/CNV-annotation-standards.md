@@ -69,7 +69,7 @@ representation in 2020.
 
 ### _Progenetix_ `Variant` schema
 
-The [Progenetix](http://progenetix.org) cancer genome profiling resource store their millions of CNVs
+The [Progenetix](http://progenetix.org) cancer genomics resource store their millions of CNVs
 in as data objects in [MongoDB](http://mongodb.org) document databases. The
 format of the single variants is based on the original GA4GH schema (see above),
 with some extensions and modifications.
