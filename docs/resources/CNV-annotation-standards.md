@@ -6,7 +6,7 @@ authors:
   - "@mbaudis"
 ---
 
-## ISCN
+### ISCN
 
 Sine 1963, the _International System for Human Cytogenetic Nomenclature_ (ISCN) has provided standards and guidelines for annotation of human karyotypes and cytogenetic abnormalities.
 
@@ -26,14 +26,14 @@ microarrays and DNA sequencing.
 
 * ISCN 2016 is the latest edition, available as book (Karger)
 
-## HGVS
+### HGVS
 
 #### Links
 
 * HGVS DNA [Sequence Variant Nomenclature](http://varnomen.hgvs.org/recommendations/DNA/)
 
 
-## VCF
+### VCF
 
 While VCF is a file format, originally developed (and optimised) for the
 representation of possibly recurring variants across a set of analyses, it also
@@ -44,7 +44,7 @@ allows for the storage & representation of CNV events.
 * VCF specification [v4.2 PDF](https://samtools.github.io/hts-specs/VCFv4.2.pdf)
 
 
-## Variant Schemas
+### Variant Schemas
 
 ### GA4GH "Variant Representation" schema
 
@@ -65,7 +65,7 @@ representation in 2020.
 * [documentation](https://vr-spec.readthedocs.io/en/1.0/)
 
 
-## Ad-Hoc & "Community" Formats
+### Ad-Hoc & "Community" Formats
 
 ### _Progenetix_ `Variant` schema
 
