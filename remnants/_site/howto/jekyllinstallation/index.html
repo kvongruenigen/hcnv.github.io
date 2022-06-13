@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8"><!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Website - Non-Github Hosting</title>
+<meta property="og:title" content="Website - Non-Github Hosting" />
+<meta name="author" content="@mbaudis" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Local Jekyll based website generation In an ideal scenario, your Github served website could be build locally, with the same output structure and layout." />
+<meta property="og:description" content="Local Jekyll based website generation In an ideal scenario, your Github served website could be build locally, with the same output structure and layout." />
+<link rel="canonical" href="http://localhost:4000/howto/jekyllinstallation/" />
+<meta property="og:url" content="http://localhost:4000/howto/jekyllinstallation/" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-03-14T00:00:00+01:00" />
+<script type="application/ld+json">
+{"name":null,"headline":"Website - Non-Github Hosting","dateModified":"2019-03-14T00:00:00+01:00","datePublished":"2019-03-14T00:00:00+01:00","sameAs":null,"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/howto/jekyllinstallation/"},"url":"http://localhost:4000/howto/jekyllinstallation/","description":"Local Jekyll based website generation In an ideal scenario, your Github served website could be build locally, with the same output structure and layout.","author":{"@type":"Person","name":"@mbaudis"},"image":null,"publisher":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<meta name="viewport" content="width=device-width">
+  <link rel="shortcut icon" href="/assets/img/site-specific/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="/assets/css/style.css">
+	<script src="/assets/preload/clipboard.min.js"></script>
+  <link rel="stylesheet" href="/assets/preload/site-style.css">
+		</head>
+
+<body>
+
+<div id="headband"><img src="/assets/img/site-specific/site-logo-topleft.png" id="logo_topleft" /><img src="/assets/img/site-specific/site-logo-topright.png" id="logo_topright" /></div>
+
+<div id="nav_r"> </div>
+
+<div class="container" style="margin-top: 20px">
+
+<header>
+
+  <div id="sitelogo">
+<a href="/">
+		<h2>hCNV Community</h2>
+  	<div style="font-size: 0.9em; margin-top: -10px; margin-bottom: 15px;">Genomic Copy Number Variations in Humans</div>
+</a>
+	</div>
+
+  <div id="catlinks"><h4><a href="/categories/news.html">News & Events</a></h4><h4><a href="/categories/people.html">Participants</a></h4><h4><a href="/categories/standards.html">Standards and Guidelines</a></h4><h4><a href="/categories/resources.html">Studies & Resources</a></h4><h4><a href="/categories/howto.html">Examples, Guides & FAQ</a></h4><h4><a href="/categories/contact.html">Contacts</a></h4></div><div id="outlinks"></div><div id="outlinks"><h5>Related Sites</h5><h4 class="sublink">
+      <a href="http://genome.blog">Genome Blog</a>
+    </h4><h4 class="sublink">
+      <a href="https://elixir-europe.org/about-us/implementation-studies/2019-hcnv">h-CNV @ ELIXIR</a>
+    </h4><h4 class="sublink">
+      <a href="https://beacon-project.io">Beacon Project</a>
+    </h4><h4 class="sublink">
+      <a href="http://www.elixir-europe.org/about-us/implementation-studies/beacons">Beacon @ ELIXIR</a>
+    </h4><h4 class="sublink">
+      <a href="http://schemablocks.org">SchemaBlocks</a>
+    </h4></div><div id="outlinks"><h5>Github Projects</h5><h4 class="sublink">
+      <a href="http://github.com/hcnv/">h-CNV</a>
+    </h4><h4 class="sublink">
+      <a href="http://github.com/ga4gh-schemablocks/">SchemaBlocks</a>
+    </h4><h4 class="sublink">
+      <a href="http://github.com/ga4gh-beacon/">ELIXIR Beacon</a>
+    </h4></div>
+
+  <div id="tagcloud">
+
+  <h5>Tags</h5><div class="site-tag">
+      <a href="/tags/Beacon.html" style="font-size: 71%">Beacon</a>
+    </div><div class="site-tag">
+      <a href="/tags/FAQ.html" style="font-size: 74%">FAQ</a>
+    </div><div class="site-tag">
+      <a href="/tags/IS_2019-2021.html" style="font-size: 71%">IS 2019-2021</a>
+    </div><div class="site-tag">
+      <a href="/tags/IS_2021_Data.html" style="font-size: 77%">IS 2021 Data</a>
+    </div><div class="site-tag">
+      <a href="/tags/IS_2021_hCNV-X.html" style="font-size: 87%">IS 2021 hCNV-X</a>
+    </div><div class="site-tag">
+      <a href="/tags/code.html" style="font-size: 73%">code</a>
+    </div><div class="site-tag">
+      <a href="/tags/contacts.html" style="font-size: 73%">contacts</a>
+    </div><div class="site-tag">
+      <a href="/tags/databases.html" style="font-size: 73%">databases</a>
+    </div><div class="site-tag">
+      <a href="/tags/documentation.html" style="font-size: 76%">documentation</a>
+    </div><div class="site-tag">
+      <a href="/tags/hackathon.html" style="font-size: 72%">hackathon</a>
+    </div><div class="site-tag">
+      <a href="/tags/ontologies.html" style="font-size: 72%">ontologies</a>
+    </div><div class="site-tag">
+      <a href="/tags/presentation.html" style="font-size: 76%">presentation</a>
+    </div><div class="site-tag">
+      <a href="/tags/press.html" style="font-size: 72%">press</a>
+    </div><div class="site-tag">
+      <a href="/tags/publication.html" style="font-size: 74%">publication</a>
+    </div><div class="site-tag">
+      <a href="/tags/standards.html" style="font-size: 74%">standards</a>
+    </div><div class="site-tag">
+      <a href="/tags/website.html" style="font-size: 75%">website</a>
+    </div></div>
+
+</header><section>
+
+<h2 id="local-jekyll-based-website-generation">Local Jekyll based website generation</h2>
+
+<p>In an ideal scenario, your Github served website could be build locally, with the same output structure and layout.</p>
+
+<!--more-->
+
+<!--
+This page is updated at the "excerpt_link" location linked in the header.
+-->
+
+<p>However, you need to install a local version of the theme first &amp; get this to be compiled by <a href="https://jekyllrb.com">Jekyll</a>. The <a href="https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#keeping-your-site-up-to-date-with-the-github-pages-gem">Github page</a> has some more information (but see OS X comment below).</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">sudo</code> in the following commands may not be tequired, depending on your setup.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>gem <span class="nb">install </span>jekyll bundler rouge
+<span class="nb">sudo </span>gem <span class="nb">install </span>github-pages
+</code></pre></div></div>
+
+<p>Change to your site’s source directory, and then:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle <span class="nb">install</span>
+</code></pre></div></div>
+<p>… to install the specific components.</p>
+
+<p>From this site directory, you issue:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jekyll build
+</code></pre></div></div>
+<p>… to generate the html file structure, or</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jekyll serve <span class="nt">--incremental</span>
+</code></pre></div></div>
+<p>… to run a server. Which should then answer with (more stuff) and</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Server address: http://127.0.0.1:4000
+</code></pre></div></div>
+
+<h4 id="notes">Notes</h4>
+
+<ul>
+  <li>If you have a non-empty <code class="language-plaintext highlighter-rouge">baseurl</code> parameter in your <code class="language-plaintext highlighter-rouge">_config.yml</code> (e.g. the name og the repository you are running the site from), you will have to specify an empty <code class="language-plaintext highlighter-rouge">baseurl</code> when starting your localhost test server:
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jekyll serve <span class="nt">--baseurl</span> <span class="s2">""</span> <span class="nt">--incremental</span>
+</code></pre></div>    </div>
+  </li>
+  <li>On OS X with homebrew there is (was? OS X 10.13) a configuration problem when building the “nokogiri” component. A workaround is to de-install “xz”, and run the install again (thanks to the comments by <em>halostatue</em> on <a href="https://github.com/sparklemotion/nokogiri/issues/1483">Github nokogiri</a>!).
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew uninstall <span class="nt">--ignore-dependencies</span> <span class="nt">--force</span> xz
+<span class="nb">sudo </span>gem <span class="nb">install </span>github-pages
+brew <span class="nb">install </span>xz
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<p>Please see the <a href="https://jekyllrb.com">Jekyll</a> documentation for more options (e.g. how to generate your site into a specific target directory).</p>
+<div class="pagestamp">
+<a href="https://github.com/mbaudis/" target="_blank">@mbaudis</a>&nbsp;2019-03-14
+  </div></section>
+
+<footer></footer>
+
+</div></body>
+</html>

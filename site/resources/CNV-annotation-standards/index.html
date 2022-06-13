@@ -398,16 +398,14 @@ representation in 2020.</p>
 </ul>
 <h2 id="ad-hoc-community-formats">Ad-Hoc &amp; "Community" Formats<a class="headerlink" href="#ad-hoc-community-formats" title="Permanent link">&para;</a></h2>
 <h3 id="progenetix-variant-schema"><em>Progenetix</em> <code>Variant</code> schema<a class="headerlink" href="#progenetix-variant-schema" title="Permanent link">&para;</a></h3>
-<p>The <a href="http://progenetix.org">Progenetix</a> cancer genome profiling resource store their millions of CNVs
+<p>The <a href="http://progenetix.org">Progenetix</a> cancer genomics resource store their millions of CNVs
 in as data objects in <a href="http://mongodb.org">MongoDB</a> document databases. The
 format of the single variants is based on the original GA4GH schema (see above),
 with some extensions and modifications.</p>
-<p>Development of the <em>Progenetix</em> format closely follows the work of the GA4GH GKS
-group and is expected, over time, to adopt core objects and concepts from
+<p>Development of the <em>Progenetix</em> format closely follows the work of the GA4GH GKS group adopts core objects and concepts from
 <em>vr-spec</em> <a href="https://github.com/ga4gh/vr-spec">repository</a>.</p>
 <p>The <em>Progenetix</em> data serves as the repository behind the
-Beacon<span style="color: red; font-weight: 800;">+</span> forward looking
-test implementation of the <a href="http://beacon-project.io">ELIXIR Beacon</a> project.</p>
+<a href="http://beacon.progenetix.org">Beacon<span style="color: red; font-weight: 800;">+</span></a> forward looking implementation of the <a href="http://beacon-project.io">ELIXIR Beacon</a> project.</p>
 <h4 id="progenetix-cnv-example">Progenetix CNV example<a class="headerlink" href="#progenetix-cnv-example" title="Permanent link">&para;</a></h4>
 <div class="highlight"><pre><span></span><code>{
   _id: ObjectId(&quot;5bab576a727983b2e00b8d32&quot;),

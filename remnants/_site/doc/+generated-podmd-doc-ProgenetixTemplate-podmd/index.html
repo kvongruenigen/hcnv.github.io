@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8"><!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>ProgenetixTemplate::podmd.pl Perl Code Documentation</title>
+<meta property="og:title" content="ProgenetixTemplate::podmd.pl Perl Code Documentation" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="ProgenetixTemplate::podmd.pl Perl Code Documentation" />
+<meta property="og:description" content="ProgenetixTemplate::podmd.pl Perl Code Documentation" />
+<link rel="canonical" href="http://localhost:4000/doc/+generated-podmd-doc-ProgenetixTemplate-podmd/" />
+<meta property="og:url" content="http://localhost:4000/doc/+generated-podmd-doc-ProgenetixTemplate-podmd/" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-07-10T00:00:00+02:00" />
+<script type="application/ld+json">
+{"name":null,"headline":"ProgenetixTemplate::podmd.pl Perl Code Documentation","dateModified":"2019-07-10T00:00:00+02:00","datePublished":"2019-07-10T00:00:00+02:00","sameAs":null,"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/doc/+generated-podmd-doc-ProgenetixTemplate-podmd/"},"url":"http://localhost:4000/doc/+generated-podmd-doc-ProgenetixTemplate-podmd/","description":"ProgenetixTemplate::podmd.pl Perl Code Documentation","author":null,"image":null,"publisher":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<meta name="viewport" content="width=device-width">
+  <link rel="shortcut icon" href="/assets/img/site-specific/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="/assets/css/style.css">
+	<script src="/assets/preload/clipboard.min.js"></script>
+  <link rel="stylesheet" href="/assets/preload/site-style.css">
+		</head>
+
+<body>
+
+<div id="headband"><img src="/assets/img/site-specific/site-logo-topleft.png" id="logo_topleft" /><img src="/assets/img/site-specific/site-logo-topright.png" id="logo_topright" /></div>
+
+<div id="nav_r"> </div>
+
+<div class="container" style="margin-top: 20px">
+
+<header>
+
+  <div id="sitelogo">
+<a href="/">
+		<h2>hCNV Community</h2>
+  	<div style="font-size: 0.9em; margin-top: -10px; margin-bottom: 15px;">Genomic Copy Number Variations in Humans</div>
+</a>
+	</div>
+
+  <div id="catlinks"><h4><a href="/categories/news.html">News & Events</a></h4><h4><a href="/categories/people.html">Participants</a></h4><h4><a href="/categories/standards.html">Standards and Guidelines</a></h4><h4><a href="/categories/resources.html">Studies & Resources</a></h4><h4><a href="/categories/howto.html">Examples, Guides & FAQ</a></h4><h4><a href="/categories/contact.html">Contacts</a></h4></div><div id="outlinks"></div><div id="outlinks"><h5>Related Sites</h5><h4 class="sublink">
+      <a href="http://genome.blog">Genome Blog</a>
+    </h4><h4 class="sublink">
+      <a href="https://elixir-europe.org/about-us/implementation-studies/2019-hcnv">h-CNV @ ELIXIR</a>
+    </h4><h4 class="sublink">
+      <a href="https://beacon-project.io">Beacon Project</a>
+    </h4><h4 class="sublink">
+      <a href="http://www.elixir-europe.org/about-us/implementation-studies/beacons">Beacon @ ELIXIR</a>
+    </h4><h4 class="sublink">
+      <a href="http://schemablocks.org">SchemaBlocks</a>
+    </h4></div><div id="outlinks"><h5>Github Projects</h5><h4 class="sublink">
+      <a href="http://github.com/hcnv/">h-CNV</a>
+    </h4><h4 class="sublink">
+      <a href="http://github.com/ga4gh-schemablocks/">SchemaBlocks</a>
+    </h4><h4 class="sublink">
+      <a href="http://github.com/ga4gh-beacon/">ELIXIR Beacon</a>
+    </h4></div>
+
+  <div id="tagcloud">
+
+  <h5>Tags</h5><div class="site-tag">
+      <a href="/tags/Beacon.html" style="font-size: 71%">Beacon</a>
+    </div><div class="site-tag">
+      <a href="/tags/FAQ.html" style="font-size: 74%">FAQ</a>
+    </div><div class="site-tag">
+      <a href="/tags/IS_2019-2021.html" style="font-size: 71%">IS 2019-2021</a>
+    </div><div class="site-tag">
+      <a href="/tags/IS_2021_Data.html" style="font-size: 77%">IS 2021 Data</a>
+    </div><div class="site-tag">
+      <a href="/tags/IS_2021_hCNV-X.html" style="font-size: 87%">IS 2021 hCNV-X</a>
+    </div><div class="site-tag">
+      <a href="/tags/code.html" style="font-size: 73%">code</a>
+    </div><div class="site-tag">
+      <a href="/tags/contacts.html" style="font-size: 73%">contacts</a>
+    </div><div class="site-tag">
+      <a href="/tags/databases.html" style="font-size: 73%">databases</a>
+    </div><div class="site-tag">
+      <a href="/tags/documentation.html" style="font-size: 76%">documentation</a>
+    </div><div class="site-tag">
+      <a href="/tags/hackathon.html" style="font-size: 72%">hackathon</a>
+    </div><div class="site-tag">
+      <a href="/tags/ontologies.html" style="font-size: 72%">ontologies</a>
+    </div><div class="site-tag">
+      <a href="/tags/presentation.html" style="font-size: 76%">presentation</a>
+    </div><div class="site-tag">
+      <a href="/tags/press.html" style="font-size: 72%">press</a>
+    </div><div class="site-tag">
+      <a href="/tags/publication.html" style="font-size: 74%">publication</a>
+    </div><div class="site-tag">
+      <a href="/tags/standards.html" style="font-size: 74%">standards</a>
+    </div><div class="site-tag">
+      <a href="/tags/website.html" style="font-size: 75%">website</a>
+    </div></div>
+
+</header><section>
+
+<h2 id="progenetixtemplatepodmdpl-perl-code-documentation">ProgenetixTemplate::podmd.pl Perl Code Documentation</h2>
+
+<!--more-->
+
+<p>The “podmd.pl” script parses inline documentation from - now various - code files
+and writes it to a given output directory, in the format of Jekyll-compatible
+Markdown files, i.e. including a YAML header.</p>
+
+<ul>
+  <li>location: <code class="language-plaintext highlighter-rouge">__Jekyll_site_directory__/_tools/</code></li>
+</ul>
+
+<p>Processing the input files is based on parameters provided in the “podmd.yaml”
+configuration file. Please have a look for examples there.</p>
+
+<p>For now, the functions of the script are optimised for use in the
+<a href="http://info.progenetix.org">Progenetix</a> documentation environment but may be
+adapted for other purposes.</p>
+
+<p>The script itself contains an inline predefined minimal processing configuration
+which should be overridden from a <code class="language-plaintext highlighter-rouge">./podmd.yaml</code> file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>my $here_path   =   File::Basename::dirname( eval { ( caller() )[1] } );
+my $conf_yaml		=		$here_path.'/podmd.yaml';
+my $config			=		{
+	output_dir		=&gt;	 '../pages/_doc',
+	output_pre		=&gt;	 '+generated-podmd-doc',
+	category			=&gt;	 'howto',
+	tags					=&gt;	[ qw(code documentation) ],
+	md_starts			=&gt;	[ '^=podmd', '\/\*podmd', '^# podmd' ],
+	md_stops			=&gt;	[ '^=cut', 'end_podmd\*\/', '^# end_podmd' ],
+	packages			=&gt;	{
+		ProgenetixTemplate	=&gt;	{
+			input				=&gt;	'.',
+			extensions	=&gt;	[ '.pl' ],
+			language		=&gt;	'Perl',
+		},
+	},
+};
+
+if (-f $conf_yaml) {
+	$config      	=   LoadFile($here_path.'/podmd.yaml') }
+</code></pre></div></div>
+<p>For the scanned files, comment lines are read in if they are between one of the
+<code class="language-plaintext highlighter-rouge">md_starts</code> and <code class="language-plaintext highlighter-rouge">md_stops</code> markers, which can be defined as global parameters
+or package specific.</p>
+
+<p>Similarly, code is read in between the <code class="language-plaintext highlighter-rouge">md_code_starts</code> and <code class="language-plaintext highlighter-rouge">md_code_stops</code>
+markers, but is wrapped in source quote tags.</p>
+
+<p>If per-line commenting is uses between the markers (Python “# “ line starts),
+these comment tags a re removed. However, this will also remove Markdown H1
+tags - so either use HTML for those or pre-pend them with a space.</p>
+
+<p>No file is created if there isn’t any content in the text buffer.</p>
+
+<p>If documentation has been found, the YAML-prefixed markdown file is created in
+the <code class="language-plaintext highlighter-rouge">output_dir</code> target directory.</p>
+
+<p>The <a href="https://progenetix.github.io/progenetix-site-template/howto/yamlheader/">YAML header</a>
+contains directives and parameters for the processing of the page through the
+<a href="https://jekyllrb.com"><strong>Jekyll</strong></a> website generation engine.</p>
+
+<p>The following code shows how the header is generated through injecting some
+file dependent parameters into a standard <em>Jekyll</em> YAML header:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>		my $mdFtxt	=		&lt;&lt;END;
+---
+title: "$scope::$cfName $package-&gt;{language} Code Documentation"
+layout: default
+www_link: $package-&gt;{web_project_link}
+excerpt_separator: &lt;!--more--&gt;
+date: $today
+category:
+  - $config-&gt;{category}
+tags:
+  - $package-&gt;{language}
+  - $scope
+$addTags
+---
+
+## ProgenetixTemplate::podmd.pl Perl Code Documentation
+
+&lt;!--more--&gt;
+
+END
+</code></pre></div></div>
+<div class="pagestamp">2019-07-10
+  </div></section>
+
+<footer></footer>
+
+</div></body>
+</html>

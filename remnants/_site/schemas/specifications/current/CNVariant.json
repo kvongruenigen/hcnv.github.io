@@ -1,0 +1,139 @@
+{
+   "$id" : "https://hcnv.github.io/schemas/specifications/CNVariant/0.0.1-draft.1",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "description" : "The document describes a draft variant schema, for modeling CN variant objects.\n",
+   "examples" : [],
+   "meta" : {
+      "contributors" : [
+         {
+            "description" : "ELIXIR hCNV team",
+            "id" : "https://hcnv.github.io/categories/people.html"
+         },
+         {
+            "description" : "Michael Baudis",
+            "id" : "orcid:0000-0002-9903-4248"
+         }
+      ],
+      "provenance" : [
+         {
+            "description" : "hCNV community project",
+            "id" : "https://hcnv.github.io/schemas/specifications/"
+         }
+      ],
+      "sb_status" : "playground",
+      "used_by" : [
+         {
+            "description" : "ELIXIR hCNV community"
+         }
+      ]
+   },
+   "properties" : {
+      "basePloidy" : {
+         "description" : "Base ploidy of the sample for this reference. This may vary depending on organism or\nspecific cell/tissue type as well as for sex chromosomes. While CNVs are usually reported\nas relative changes w/ respect to a \"balanced\" genome state, a `basePloidy` value\ncan help with the interpretation of absolute copy number counts.\nExamples:\n* autosome in diploid karyotype: 2\n* complete hydatiform mole: 1\n* X-chromosome in karyotypically \"normal\" male: 1\n* chromosome 2 in cell line NCI H-82 `cellosaurus:CVCL_1591`): 3\n",
+         "type" : "integer"
+      },
+      "digest" : {
+         "description" : "* Concatenated unique specific elements of the variant.\n* Optional, convenience element to derive unique variants in \"individual\nvariant from callset\" storage systems\n* Possible use of e.g. HGVS-style annotations, but _not_ defined as such\n",
+         "examples" : [
+            "4:12282-46465:DEL"
+         ],
+         "type" : "string"
+      },
+      "featureAnnotations" : {
+         "items" : "object",
+         "type" : "array"
+      },
+      "id" : {
+         "description" : "* local-unique identifier of this variant (referenced as \"variant_id\")\n* Optional\n",
+         "examples" : [
+            "amvar-8754-7751-1119-8539"
+         ],
+         "type" : "string"
+      },
+      "info" : {
+         "description" : "miscellaneous key-value pairs (where values can be objects)\n",
+         "examples" : [
+            {
+               "identifiers" : [
+                  "GPL6801"
+               ],
+               "platform" : "Affymetrix SNP6 Genotyping array",
+               "platform_type" : "SNP array"
+            }
+         ],
+         "type" : "object"
+      },
+      "referenceGenome" : {
+         "description" : "GRC reference genome edition",
+         "examples" : [
+            "GRCh38"
+         ],
+         "type" : "string"
+      },
+      "referenceId" : {
+         "description" : "* Identifier for a reference sequence, generally describing a chromosome.\n* The use of standard sequence identifiers with version (e.g. `NC_000009.12`)\nobviates the separate need for a `referenceGenome` parameter'\n* TODO: Stricter definition of identifier use\n",
+         "examples" : [
+            "NC_000009",
+            "NC_000006.12"
+         ],
+         "type" : "string"
+      },
+      "svarEnd" : {
+         "allof" : [
+            {
+               "$ref" : "https://github.com/ga4gh/vr-spec/blob/116-patch-future-plans/schema/vr.json#118"
+            },
+            {
+               "description" : "- Information about range in which the end of the CNV has been mapped. This\n  corresponds to the GA4GH GKS VRS \"SimpleInterval\". Also see annotation for `svarStart`.\n"
+            },
+            {
+               "examples" : [
+                  {
+                     "end" : "138394717",
+                     "start" : "137000000"
+                  }
+               ]
+            }
+         ]
+      },
+      "svarStart" : {
+         "allof" : [
+            {
+               "$ref" : "https://github.com/ga4gh/vr-spec/blob/116-patch-future-plans/schema/vr.json#118"
+            },
+            {
+               "description" : "- Information about range in which the start of the CNV has been mapped. This\n  corresponds to the GA4GH GKS VRS \"SimpleInterval\".\n- Optional pointer to fusion partner? Position or ID?\n- The positions are annotated using a 0-based \"interbase\" coordinate system\n(_cave_: differs from HGVS and browser displays).\n"
+            },
+            {
+               "examples" : [
+                  {
+                     "end" : "750050000",
+                     "start" : "75000000"
+                  }
+               ]
+            }
+         ]
+      },
+      "variantType" : {
+         "description" : "status as keyword or CURIE, quantitative parameters",
+         "examples" : [
+            {
+               "cn" : "3",
+               "state" : "DUP"
+            }
+         ],
+         "type" : "object"
+      }
+   },
+   "required" : {
+      "allof" : [
+         "referenceId",
+         "svarStart",
+         "svarEnd",
+         "variantType"
+      ]
+   },
+   "title" : "CNVariant",
+   "type" : "object"
+}
+
