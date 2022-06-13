@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {{ page.content }}
+  {% set resources_pages = [] %}
+  {% set databases_pages = [] %}
+    {% for this_file in pages %}
+      {% set this_page = this_file.page %}
+      {% if this_page.meta is defined %}
+        {% if this_page.url.startswith(config.extra.resources.dir) and this_page.meta.title is defined %}
+          {% if this_page.meta.is_database is defined %}
+            {{ databases_pages.append( this_page ) or "" }}
+          {% else %}
+            {{ resources_pages.append( this_page ) or "" }}
+          {% endif %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+<h2>Databases</h2>
+
+  {% for page in (databases_pages|sort(attribute="meta.title")) %}
+    {% if page.meta.logo is defined %}
+<img style="float: right; max-width: 160px;" src="/img/{{ page.meta.logo}}" />
+    {% endif %}
+<h4 class="mdx-author"><a href="{{ page.url|url }}">{{ page.title }}</a></h4>
+    {% if page.meta.description is defined %}
+<h5>{{ page.meta.description }}</h5>
+    {% endif %}
+      <!-- Use a hidden p tag to provide a preview -->
+    {% if config.extra.resources.extended_preview %}
+      {{ page.content.split(config.extra.resources.excerpt_separator, 1)[0] }}
+<a href="{{ page.url|url }}#more"><span class="twemoji">
+      {% include ".icons/octicons/arrow-right-24.svg" %}
+</span>Continue reading</a>
+      {% endif %}
+<hr>
+  {% endfor %}
+
+<h2>Other Resources and Information</h2>
+
+  {% for page in (resources_pages|sort(attribute="meta.title")) %}
+    {% if page.meta.logo is defined %}
+<img style="float: right; max-width: 160px;" src="/img/{{ page.meta.logo}}" />
+    {% endif %}
+<h4 class="mdx-author"><a href="{{ page.url|url }}">{{ page.title }}</a></h4>
+    {% if page.meta.description is defined %}
+<h5>{{ page.meta.description }}</h5>
+      {% endif %}
+      <!-- Use a hidden p tag to provide a preview -->
+    {% if config.extra.resources.extended_preview %}
+      {{ page.content.split(config.extra.resources.excerpt_separator, 1)[0] }}
+<a href="{{ page.url|url }}#more"><span class="twemoji">
+      {% include ".icons/octicons/arrow-right-24.svg" %}
+</span>Continue reading</a>
+      {% endif %}
+<hr>
+  {% endfor %}
+
+{% endblock %}
