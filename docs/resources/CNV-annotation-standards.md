@@ -74,13 +74,11 @@ in as data objects in [MongoDB](http://mongodb.org) document databases. The
 format of the single variants is based on the original GA4GH schema (see above),
 with some extensions and modifications.
 
-Development of the _Progenetix_ format closely follows the work of the GA4GH GKS
-group and is expected, over time, to adopt core objects and concepts from
+Development of the _Progenetix_ format closely follows the work of the GA4GH GKS group adopts core objects and concepts from
 _vr-spec_ [repository](https://github.com/ga4gh/vr-spec).
 
 The _Progenetix_ data serves as the repository behind the
-Beacon<span style="color: red; font-weight: 800;">+</span> forward looking
-test implementation of the [ELIXIR Beacon](http://beacon-project.io) project.
+[Beacon<span style="color: red; font-weight: 800;">+</span>](http://beacon.progenetix.org) forward looking implementation of the [ELIXIR Beacon](http://beacon-project.io) project.
 
 #### Progenetix CNV example
 
