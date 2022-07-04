@@ -2,7 +2,6 @@
 title: "Katharina Heil"
 description: ELIXIR Communities Coordinator
 is_contact: true
-name_tag: heil-k
 ---
 
 * ELIXIR Communities Coordinator

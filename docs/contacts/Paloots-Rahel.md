@@ -2,7 +2,7 @@
 title: "Rahel Paloots"
 description: h-CNV Community Contributor
 is_contact: false
-name_tag: paloots_r
+excerpt_link: 'https://info.baudisgroup.org/group/Rahel_Paloots/'
 ---
 
 * [Department of Molecular Life Sciences](https://info.baudisgroup.org/group/Rahel_Paloots), University of Zurich
