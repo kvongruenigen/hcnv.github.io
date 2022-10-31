@@ -2,8 +2,10 @@
 title: "Katarzyna Kamieniecka"
 description: h-CNV Community Contributor
 is_contact: false
+links:
+	- '[www](https://elixiruknode.org/team/katarzyna-kamieniecka/)'
 ---
 
 * Senior Computational Biologist
-* Cancer Research UK Manchester Institute
+* University of Bradford and CRUK
 
