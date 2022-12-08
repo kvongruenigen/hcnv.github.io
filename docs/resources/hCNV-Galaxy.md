@@ -6,7 +6,5 @@ authors:
   - "@poterlowicz_k"
 ---
 
- A list of whole exome aequencing  tools for detection of copy number variants including: description, web source/repository, conda status, Galaxy status including wrapper if exist
- 
- [hCNV-Galaxy](https://github.com/users/khaled196/projects/1/views/11)
+ A list of whole exome sequencing tools for detection of copy number variants including: description, web source/repository, conda status, Galaxy status including wrapper if exist [hCNV-Galaxy](https://github.com/users/khaled196/projects/1/views/11)
  
