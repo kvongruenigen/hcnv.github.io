@@ -20,6 +20,8 @@ set of CNV classes reflecting common use concepts.
 
 ## CNV Term Use Comparison in Computational (File/Schema) Formats
 
+This table corresponds to the [Beacon v2 documentation](http://docs.genomebeacons.org/variant-queries/#term-use-comparison).
+
 | Beacon | [VCF](https://samtools.github.io/hts-specs/) | SO | [EFO](http://www.ebi.ac.uk/efo/EFO_0030063) | [VRS](https://vrs.ga4gh.org/en/latest/terms_and_model.html#relativecopynumber) | Notes   |
 | -------|-----|----|-----|-----|---------|
 | `DUP`[^1]    | `DUP`<br/>`SVCLAIM=D`[^2] | [`SO:0001742`](http://www.sequenceontology.org/browser/current_release/term/SO:0001742) copy_number_gain | [`EFO:0030070`](http://www.ebi.ac.uk/efo/EFO_0030070) copy&nbsp;number&nbsp;gain | [`low-level gain`](https://vrs.ga4gh.org/en/latest/terms_and_model.html#relativecopynumber) (implicit) | a sequence alteration whereby the copy number of a given genomic region is greater than the reference sequence |
@@ -137,7 +139,7 @@ The _Progenetix_ data serves as the repository behind the
 [^1]: While the use of VCF derived (`DUP`, `DEL`) values had been introduced with
 beacon v1, usage of these terms has always been a _recommendation_ rather than an integral part
 of the API. We now encourage the support of more specific terms (particularly EFO)
-by Beacon developers. As example, the Progentix Beacon API uses EFO terms but
+by Beacon developers. As example, the Progentix Beacon API [uses EFO terms](http://progenetix.org/search/) but
 provides an internal term expansion for legacy `DUP`, `DEL` support.
 [^2]: VCFv4.4 introduces an `SVCLAIM` field to disambiguate between _in situ_ events (such as
 tandem duplications; known _adjacency_/ _break junction_: `SVCLAIM=J`) and events where e.g. only the
