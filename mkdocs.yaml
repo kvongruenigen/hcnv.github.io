@@ -10,12 +10,13 @@ edit_uri: edit/main/docs/
 ###############################################################################
 
 nav:
-  - hCNV Home: index.md
-  - About ELIXIR h-CNV: about.md
-  - Contacts: contacts
-  - h-CNV Projects: implementation-studies.md
+  - hCNV Home: /
+  - About ELIXIR h-CNV: about
+  - h-CNV Projects: implementation-studies
+  - CNV Annotation Standards: resources/CNV-annotation-standards
   - Databases & Resources: resources
   - Genome Blog: "http://genome.blog"
+  - Contacts: contacts
   - h-CNV @ ELIXIR: 'https://elixir-europe.org/about-us/implementation-studies/2019-hcnv'
   - Beacon Project: 'https://beacon-project.io'
 
@@ -58,7 +59,6 @@ markdown_extensions:
 ###############################################################################
 
 theme:
-  # name: readthedocs
   name: material
   palette:
     primary: deep orange

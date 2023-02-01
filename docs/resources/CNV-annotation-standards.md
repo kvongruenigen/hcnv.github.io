@@ -1,50 +1,74 @@
 ---
 title: CNV Annotation Formats
 description: Some Information about CNV Annotation Standards
-date: 2019-12-12
+date: 2023-02-01
 authors:
   - "@mbaudis"
 ---
 
-### ISCN
+## Cytogenetics vs. Molecular Biology...
+
+With the "dual origin" in cytogenetics ("chromosome based") and genomics ("sequencing
+based") analyses the annotation of copy number variants has evolved starting from
+different directions. From the cytogenetic side the use of cytogenetic bands as
+coordinate system, has been amended by increasing use of mapping positions (i.e.
+for molecular-cytogenetic or hybrid analyses with known probe positions) while
+for array and sequencing based CNV detection <!--more-->an increasing focus lies in the
+determination of discrete allelic copy number counts and the assignment of a limited
+set of CNV classes reflecting common use concepts.
+
+
+## CNV Term Use Comparison in Computational (File/Schema) Formats
+
+| Beacon | [VCF](https://samtools.github.io/hts-specs/) | SO | [EFO](http://www.ebi.ac.uk/efo/EFO_0030063) | [VRS](https://vrs.ga4gh.org/en/latest/terms_and_model.html#relativecopynumber) | Notes   |
+| -------|-----|----|-----|-----|---------|
+| `DUP`[^1]    | `DUP`<br/>`SVCLAIM=D`[^2] | [`SO:0001742`](http://www.sequenceontology.org/browser/current_release/term/SO:0001742) copy_number_gain | [`EFO:0030070`](http://www.ebi.ac.uk/efo/EFO_0030070) copy&nbsp;number&nbsp;gain | [`low-level gain`](https://vrs.ga4gh.org/en/latest/terms_and_model.html#relativecopynumber) (implicit) | a sequence alteration whereby the copy number of a given genomic region is greater than the reference sequence |
+| `DUP`[^1]    | `DUP`<br/>`SVCLAIM=D`[^2] | [`SO:0001742`](http://www.sequenceontology.org/browser/current_release/term/SO:0001742) copy_number_gain |[`EFO:0030071`](http://www.ebi.ac.uk/efo/EFO_0030071) low-level copy number gain | [`low-level gain`](https://vrs.ga4gh.org/en/latest/terms_and_model.html#relativecopynumber) |  |
+| `DUP`[^1]    | `DUP`<br/>`SVCLAIM=D`[^2] | [`SO:0001742`](http://www.sequenceontology.org/browser/current_release/term/SO:0001742) copy_number_gain |[`EFO:0030072`](http://www.ebi.ac.uk/efo/EFO_0030072) high-level copy number gain | [`high-level gain`](https://vrs.ga4gh.org/en/latest/terms_and_model.html#relativecopynumber)  | commonly but not consistently used for >=5 copies on a bi-allelic genome region |
+| `DUP`[^1]    | `DUP`<br/>`SVCLAIM=D`[^2] | [`SO:0001742`](http://www.sequenceontology.org/browser/current_release/term/SO:0001742) copy_number_gain |[`EFO:0030073`](http://www.ebi.ac.uk/efo/EFO_0030073) focal genome amplification | [`high-level gain`](https://vrs.ga4gh.org/en/latest/terms_and_model.html#relativecopynumber)  | commonly but not consistently used for >=5 copies on a bi-allelic genome region, of limited size (operationally max. 1-5Mb) |
+| `DEL`[^1]    | `DEL`<br/>`SVCLAIM=D`[^2] | [`SO:0001743`](http://www.sequenceontology.org/browser/current_release/term/SO:0001743) copy_number_loss | [`EFO:0030067`](http://www.ebi.ac.uk/efo/EFO_0030067) copy number loss | [`partial loss`](https://vrs.ga4gh.org/en/latest/terms_and_model.html#relativecopynumber) (implicit) | a sequence alteration whereby the copy number of a given genomic region is smaller than the reference sequence | 
+| `DEL`[^1]    | `DEL`<br/>`SVCLAIM=D`[^2] | [`SO:0001743`](http://www.sequenceontology.org/browser/current_release/term/SO:0001743) copy_number_loss | [`EFO:0030068`](http://www.ebi.ac.uk/efo/EFO_0030068) low-level copy number loss | [`partial loss`](https://vrs.ga4gh.org/en/latest/terms_and_model.html#relativecopynumber) | |
+| `DEL`[^1]    | `DEL`<br/>`SVCLAIM=D`[^2] | [`SO:0001743`](http://www.sequenceontology.org/browser/current_release/term/SO:0001743) copy_number_loss | [`EFO:0030069`](http://www.ebi.ac.uk/efo/EFO_0030069) complete genomic deletion | [`complete loss`](https://vrs.ga4gh.org/en/latest/terms_and_model.html#relativecopynumber) | complete genomic deletion (e.g. homozygous deletion on a bi-allelic genome region) |
+
+
+## ISCN
 
 Sine 1963, the _International System for Human Cytogenetic Nomenclature_ (ISCN) has provided standards and guidelines for annotation of human karyotypes and cytogenetic abnormalities.
 
-<!--more-->
 
 Recent editions have tried to accomodate for genomic variants derived from
 molecular and molecular-cytogenetics technologies such as FISH, genomic
 microarrays and DNA sequencing.
 
-#### Examples (CNV)
+### Examples (CNV)
 
 * `46,XX,trp(8)(q21q24)`
 * `ish cgh dim(17p12p11),enh(8)(q24)`
     - chromosomal Comparativ Genomic Hybridization (CGH)
 
-#### Links
+### Links
 
-* ISCN 2016 is the latest edition, available as book (Karger)
+* ISCN 2020 is the latest edition, available as book (Karger)
 
-### HGVS
+## HGVS
 
-#### Links
+### Links
 
 * HGVS DNA [Sequence Variant Nomenclature](http://varnomen.hgvs.org/recommendations/DNA/)
 
 
-### VCF
+## VCF
 
 While VCF is a file format, originally developed (and optimised) for the
 representation of possibly recurring variants across a set of analyses, it also
 allows for the storage & representation of CNV events.
 
-#### Links
+### Links
 
 * VCF specification [v4.2 PDF](https://samtools.github.io/hts-specs/VCFv4.2.pdf)
 
 
-### Variant Schemas
+## Variant Schemas
 
 ### GA4GH "Variant Representation" schema
 
@@ -59,7 +83,7 @@ does not yet include the option to represent structural variants. However, the
 internal roadmap of the project points towards an extension for CNV
 representation in 2020.
 
-#### Links
+### Links
 
 * _vr-spec_ [repository](https://github.com/ga4gh/vr-spec)
 * [documentation](https://vr-spec.readthedocs.io/en/1.0/)
@@ -105,6 +129,17 @@ The _Progenetix_ data serves as the repository behind the
 }
 ```
 
-#### Links
+### Links
 
 * schema in _progenetix/bycon_ [code repository](https://github.com/progenetix/bycon/blob/master/schemas/src/progenetix-database-schemas/pgxVariant.yaml)
+
+
+[^1]: While the use of VCF derived (`DUP`, `DEL`) values had been introduced with
+beacon v1, usage of these terms has always been a _recommendation_ rather than an integral part
+of the API. We now encourage the support of more specific terms (particularly EFO)
+by Beacon developers. As example, the Progentix Beacon API uses EFO terms but
+provides an internal term expansion for legacy `DUP`, `DEL` support.
+[^2]: VCFv4.4 introduces an `SVCLAIM` field to disambiguate between _in situ_ events (such as
+tandem duplications; known _adjacency_/ _break junction_: `SVCLAIM=J`) and events where e.g. only the
+change in _abundance_ / _read depth_ (`SVCLAIM=D`) has been determined. Both **J** and **D** flags can be combined.
+
