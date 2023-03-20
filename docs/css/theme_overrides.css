@@ -3,7 +3,7 @@
 }
 
 .md-grid {
-  max-width: 800px; 
+  max-width: 1200px; 
 }
 
 .md-header {
@@ -54,9 +54,9 @@ li li li {
 
 /* Width manipulations etc. */
 
-.md-grid {
+/*.md-grid {
   max-width: 920px; 
-}
+}*/
 
 @media (max-width: 891.98px) {
     .navbar-collapse.show { /* csslint allow: adjoining-classes */
