@@ -20,7 +20,7 @@ set of CNV classes reflecting common use concepts.
 
 ## CNV Term Use Comparison in Computational (File/Schema) Formats
 
-This table corresponds to the [Beacon v2 documentation](http://docs.genomebeacons.org/variant-queries/#term-use-comparison).
+This table is maintained in parallel with the [Beacon v2 documentation](http://docs.genomebeacons.org/variant-queries/#term-use-comparison).
 
 | Beacon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [VCF](https://samtools.github.io/hts-specs/) | SO      | [EFO](http://www.ebi.ac.uk/efo/EFO_0030063) | GA4GH [VRS](https://vrs.ga4gh.org/en/latest/terms_and_model.html#relativecopynumber) &rArr;<br/>[VRS proposal](https://github.com/ga4gh/vrs/issues/404)[^1] | Notes |
 | ------------------------------------------------------------------------------ | -------------------------------------------- | ------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ----- |
@@ -30,9 +30,10 @@ This table corresponds to the [Beacon v2 documentation](http://docs.genomebeacon
 | `DUP`[^2] or<br/>[`EFO:0030073`](http://www.ebi.ac.uk/efo/EFO_0030073)   | `DUP`<br/>`SVCLAIM=D`[^3]                    | [`SO:0001742`](http://www.sequenceontology.org/browser/current_release/term/SO:0001742) copy_number_gain | [`EFO:0030073`](http://www.ebi.ac.uk/efo/EFO_0030073) focal genome amplification  | [`high-level gain`](https://vrs.ga4gh.org/en/latest/terms_and_model.html#relativecopynumber) &rArr; [`EFO:0030073`](http://www.ebi.ac.uk/efo/EFO_0030073) focal genome amplification  | commonly but not consistently used for >=5 copies on a bi-allelic genome region, of limited size (operationally max. 1-5Mb) |
 | `DEL`[^2] or<br/>[`EFO:0030067`](http://www.ebi.ac.uk/efo/EFO_0030067)   | `DEL`<br/>`SVCLAIM=D`[^3]                    | [`SO:0001743`](http://www.sequenceontology.org/browser/current_release/term/SO:0001743) copy_number_loss | [`EFO:0030067`](http://www.ebi.ac.uk/efo/EFO_0030067) copy number loss            | [`partial loss`](https://vrs.ga4gh.org/en/latest/terms_and_model.html#relativecopynumber) (implicit) &rArr; [`EFO:0030067`](http://www.ebi.ac.uk/efo/EFO_0030067) copy number loss            | a sequence alteration whereby the copy number of a given genomic region is smaller than the reference sequence              |
 | `DEL`[^2] or<br/>[`EFO:0030068`](http://www.ebi.ac.uk/efo/EFO_0030068)   | `DEL`<br/>`SVCLAIM=D`[^3]                    | [`SO:0001743`](http://www.sequenceontology.org/browser/current_release/term/SO:0001743) copy_number_loss | [`EFO:0030068`](http://www.ebi.ac.uk/efo/EFO_0030068) low-level copy number loss  | [`partial loss`](https://vrs.ga4gh.org/en/latest/terms_and_model.html#relativecopynumber)  &rArr; [`EFO:0030068`](http://www.ebi.ac.uk/efo/EFO_0030068) low-level copy number loss  |                                                                                                                             |
-| `DEL`[^2] or<br/>[`EFO:nnnnnnn`](http://www.ebi.ac.uk/efo/EFO_0030068)   | `DEL`<br/>`SVCLAIM=D`[^3]                    | [`SO:0001743`](http://www.sequenceontology.org/browser/current_release/term/SO:0001743) copy_number_loss | [`EFO:0030068`](http://www.ebi.ac.uk/efo/EFO_0030068) low-level copy number loss  | [`partial loss`](https://vrs.ga4gh.org/en/latest/terms_and_model.html#relativecopynumber)  &rArr; [`EFO:nnnnnnn`](http://www.ebi.ac.uk/efo/EFO_0030068) high-level copy number loss  | a loss of several copies; also used in cases where a complete genomic deletion cannot be asserted |
+| `DEL`[^2] or<br/>[`EFO:nnnnnnn`](https://github.com/EBISPOT/efo/issues/1941)   | `DEL`<br/>`SVCLAIM=D`[^3]                    | [`SO:0001743`](http://www.sequenceontology.org/browser/current_release/term/SO:0001743) copy_number_loss | [`EFO:0030068`](http://www.ebi.ac.uk/efo/EFO_0030068) low-level copy number loss  | [`partial loss`](https://vrs.ga4gh.org/en/latest/terms_and_model.html#relativecopynumber)  &rArr; [`EFO:nnnnnnn`](https://github.com/EBISPOT/efo/issues/1941) high-level copy number loss  | a loss of several copies; also used in cases where a complete genomic deletion cannot be asserted |
 | `DEL`[^2] or<br/>[`EFO:0030069`](http://www.ebi.ac.uk/efo/EFO_0030069)   | `DEL`<br/>`SVCLAIM=D`[^3]                    | [`SO:0001743`](http://www.sequenceontology.org/browser/current_release/term/SO:0001743) copy_number_loss | [`EFO:0030069`](http://www.ebi.ac.uk/efo/EFO_0030069) complete genomic deletion   | [`complete loss`](https://vrs.ga4gh.org/en/latest/terms_and_model.html#relativecopynumber) &rArr; [`EFO:0030069`](http://www.ebi.ac.uk/efo/EFO_0030069) complete genomic deletion   | complete genomic deletion (e.g. homozygous deletion on a bi-allelic genome region)                                          |
 
+##### Last updated 2023-03-20 by @mbaudis (VRS proposal)
 
 ## ISCN
 
@@ -134,7 +135,6 @@ The _Progenetix_ data serves as the repository behind the
 ### Links
 
 * schema in _progenetix/bycon_ [code repository](https://github.com/progenetix/bycon/blob/master/schemas/src/progenetix-database-schemas/pgxVariant.yaml)
-
 
 [^1]: The VRS annotations refer to the status at v1.2 (2022). The GA4GH VRS team
 is currently (Spring 2023) preparing an updated specification which will introduce

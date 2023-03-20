@@ -1,7 +1,7 @@
 ---
 title: CNV Annotation Standards
 description: New page dedicated to the documentation of CNV standards
-date: 2023-02-01
+date: 2023-03-20
 authors:
   - "@mbaudis"
 template: blog_post.html
@@ -13,5 +13,9 @@ several file and API formats. The documentation itself is now linked from the ma
 menue for easier access.
 
 <!--more-->
+
+##### updated 2023-03-20 by @mbaudis (VRS proposal for `CopyNumberChange`)
+##### updated 2023-02-01 by @mbaudis
+
 
 ### Link: [CNV Annotation Standards](/resources/CNV-annotation-standards/)
