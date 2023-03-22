@@ -17,5 +17,4 @@ menue for easier access.
 ##### updated 2023-03-20 by @mbaudis (VRS proposal for `CopyNumberChange`)
 ##### updated 2023-02-01 by @mbaudis
 
-
 ### Link: [CNV Annotation Standards](/resources/CNV-annotation-standards/)
