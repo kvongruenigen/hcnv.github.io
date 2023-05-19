@@ -21,6 +21,7 @@ set of CNV classes reflecting common use concepts.
 ## CNV Term Use Comparison in Computational (File/Schema) Formats
 
 This table is maintained in parallel with the [Beacon v2 documentation](http://docs.genomebeacons.org/variant-queries/#term-use-comparison).
+<!--more-->
 
 | [EFO](http://www.ebi.ac.uk/efo/EFO_0030063) | Beacon | [VCF](https://samtools.github.io/hts-specs/) | SO       | GA4GH [VRS](https://vrs.ga4gh.org/en/latest/terms_and_model.html#relativecopynumber) &rArr;<br/>[VRS proposal](https://github.com/ga4gh/vrs/issues/404)[^1] | Notes |
 | ------------------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ----- |
