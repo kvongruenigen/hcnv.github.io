@@ -31,16 +31,13 @@ Terms for genomic array types used in CNV detection were added to the existing
   - the term existed but was re-assigned as child of EFO:0010939
 * oligonucleotide DNA microarray ([EFO:0010939](http://www.ebi.ac.uk/efo/EFO_0010939))
 
-There is also now (2022) a [proposal](https://github.com/EBISPOT/efo/issues/1404)
-for adding a subtree to EFO and/or SO for the representation of relative CNV
-values (see also below).
-
 ### Relative copy number changes
 
 For many practical purposes CNVs should be represented as one from a limited set
 of conceptual, relative copy number classes. Here - together with members of the
 [GA4GH VRS team](https://github.com/ga4gh/vrs/issues/277) - have developed a hierarchical mini classification which can be
-referred to using the Experimental Factor Ontology terms:
+referred to using the Experimental Factor Ontology terms (see also 2022 [proposal](https://github.com/EBISPOT/efo/issues/1404) for adding a subtree to EFO and/or SO for the representation of relative CNV
+values).
 
 * [`copy number assessment`](https://www.ebi.ac.uk/ols4/ontologies/efo/classes/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0030063) subtree at EFO in OLS
 * documentation of the [term use in different standards](/resources/CNV-annotation-standards/)
