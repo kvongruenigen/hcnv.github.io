@@ -76,7 +76,7 @@ theme:
     - navigation.tracking
     - navigation.sections
     - toc.integrate
-  custom_dir: extras
+  custom_dir: extra
       
 plugins:
     - search
