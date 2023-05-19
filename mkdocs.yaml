@@ -61,7 +61,7 @@ markdown_extensions:
 theme:
   name: material
   palette:
-    primary: deep orange
+    primary: indigo
   favicon: img/site-logo-topright.png
   # logo: img/site-logo-topright.png
   icon:
