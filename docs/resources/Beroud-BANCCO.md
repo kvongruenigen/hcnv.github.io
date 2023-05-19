@@ -1,6 +1,7 @@
 ---
 title: "BANCCO - Banque Nationale de CNV Constitutionnelles"
 date: 2018-07-01
+template: post.html
 is_database: true
 logo: bancco-logo-180.png
 ---

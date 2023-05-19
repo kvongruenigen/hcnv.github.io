@@ -1,7 +1,8 @@
 ---
 title: CNV Annotation Formats
 description: Some Information about CNV Annotation Standards
-date: 2023-02-01
+dtemplate: post.html
+ate: 2023-02-01
 authors:
   - "@mbaudis"
 ---

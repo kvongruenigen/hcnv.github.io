@@ -1,6 +1,7 @@
 ---
 title:  "CNV File & Storage Formats"
 layout: default
+template: post.html
 date:   2019-12-12
 ---
 

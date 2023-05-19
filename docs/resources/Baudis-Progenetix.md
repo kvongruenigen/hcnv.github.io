@@ -2,6 +2,7 @@
 title: "Progenetix - Cancer Genome Data Resource"
 description: An Open Cancer Genomics Resource with Focus on CNV Profiles
 date: 2001-01-01
+template: post.html
 logo: 'progenetix_160.png'
 is_database: true
 ---

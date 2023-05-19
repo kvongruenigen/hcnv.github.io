@@ -1,6 +1,7 @@
 ---
 title: "CNV-related contributions to ontologies"
 description: h-CNV Community Members and their Involvement with Classifications and Ontologies
+template: post.html
 date: 2022-01-06
 authors:
   - "@mbaudis"

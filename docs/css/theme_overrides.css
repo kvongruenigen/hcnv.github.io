@@ -1,5 +1,5 @@
 :root {
-  --md-accent-fg-color: #4051b5;
+  --md-accent-fg-color: #023362;
 }
 
 .md-grid {
@@ -7,7 +7,7 @@
 }
 
 .md-header {
-  background-color:  #4051b5;
+  background-color:  #023362;
 }
 
 nav.md-tabs {
@@ -25,12 +25,12 @@ nav.md-tabs {
 }
 
 h2 {
-    border-top:  #4051b5 thin solid;
-    border-bottom:  #4051b5 thin solid;
+    border-top:  #023362 thin solid;
+    border-bottom:  #023362 thin solid;
 }
 
 aside.blog-post-aside {
-    border-top:  #4051b5 thin solid;
+    border-top:  #023362 thin solid;
     margin-top:  24px;
     padding-top:  12px;
 }

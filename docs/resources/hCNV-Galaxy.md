@@ -2,6 +2,7 @@
 title: "Whole Exome Sequencing (WES) tools for detection of copy number variants and their status in Galaxy"
 description: A list of WES tools for detection of copy number variants and their status in Galaxy
 date: 2022-12-08
+template: post.html
 authors:
   - "@poterlowicz_k"
 ---
