@@ -23,3 +23,7 @@ using e.g. the [JSON](https://www.json.org/json-en.html) format.
 
 For information about some of the used schemas please see the
 [CNV Annotation Formats](/doc/CNV-annotation-formats.html) page.
+
+---
+
+last update 2023-07-07 by @mbaudis

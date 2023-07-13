@@ -7,14 +7,18 @@ authors:
   - "@mbaudis"
 ---
 
-## Cytogenetics vs. Molecular Biology...
-
 With the "dual origin" in cytogenetics ("chromosome based") and genomics ("sequencing
 based") analyses the annotation of copy number variants has evolved starting from
-different directions. From the cytogenetic side the use of cytogenetic bands as
+different directions. This page summarizes some of the common annotation schemes,
+terminologies and file formats which have some application to genomic copy number
+variations.<!--more-->
+
+## Cytogenetics vs. Molecular Biology...
+
+From the cytogenetic side the use of cytogenetic bands as
 coordinate system, has been amended by increasing use of mapping positions (i.e.
 for molecular-cytogenetic or hybrid analyses with known probe positions) while
-for array and sequencing based CNV detection <!--more-->an increasing focus lies in the
+for array and sequencing based CNV detection an increasing focus lies in the
 determination of discrete allelic copy number counts and the assignment of a limited
 set of CNV classes reflecting common use concepts.
 
@@ -67,10 +71,11 @@ microarrays and DNA sequencing.
 
 While VCF is a file format, originally developed (and optimised) for the
 representation of possibly recurring variants across a set of analyses, it also
-allows for the storage & representation of CNV events.
+allows for the storage & representation of CNV events[^3].
 
 ### Links
 
+* current VCF specification [v4.4 PDF](https://samtools.github.io/hts-specs/VCFv4.4.pdf)
 * VCF specification [v4.2 PDF](https://samtools.github.io/hts-specs/VCFv4.2.pdf)
 
 
@@ -139,6 +144,8 @@ The _Progenetix_ data serves as the repository behind the
 
 * schema in _progenetix/bycon_ [code repository](https://github.com/progenetix/bycon/blob/master/schemas/src/progenetix-database-schemas/pgxVariant.yaml)
 
+
+
 [^1]: The VRS annotations refer to the status at v1.2 (2022). The GA4GH VRS team
 is currently (Spring 2023) preparing an updated specification which will introduce
 the new class `CopyNumberChange` ([discussion...](https://github.com/ga4gh/vrs/issues/404#issuecomment-1472599849)) with the use of the EFO terms (including a new term 
@@ -151,4 +158,5 @@ provides an internal term expansion for legacy `DUP`, `DEL` support.
 [^3]: VCFv4.4 introduces an `SVCLAIM` field to disambiguate between _in situ_ events (such as
 tandem duplications; known _adjacency_/ _break junction_: `SVCLAIM=J`) and events where e.g. only the
 change in _abundance_ / _read depth_ (`SVCLAIM=D`) has been determined. Both **J** and **D** flags can be combined.
+
 

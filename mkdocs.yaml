@@ -10,8 +10,8 @@ edit_uri: edit/main/docs/
 ###############################################################################
 
 nav:
-  - hCNV Home: /
-  - About ELIXIR h-CNV: about
+  - Homepage & News: /
+  - About ...: about
   - h-CNV Projects: implementation-studies
   - CNV Annotation Standards: resources/CNV-annotation-standards
   - Databases & Resources: resources
