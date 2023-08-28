@@ -2,7 +2,7 @@
 title: "Michael Baudis"
 description: ELIXIR h-CNV Community Co-Lead
 is_contact: true
-excerpt_link: 'https://info.baudisgroup.org/group/Michael_Baudis/'
+excerpt_link: 'https://info.baudisgroup.org/group/Michael-Baudis/'
 ---
 
 * Professor of Bioinformatics, University of Zurich & Swiss Institute of Bioinformatics  
