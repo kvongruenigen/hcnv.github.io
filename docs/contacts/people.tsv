@@ -1,7 +1,7 @@
 # Please keep the header labels as they are.					
 # At minimum group_lat and group_lon are required for placing a marker.					
 group_label	group_lat	group_lon	item_label	item_link	marker_type
-University Paris Centre	48.845644955480445	2.3184933804245667	Antonio Rausell	https://www.institutimagine.org/en/RausellLab	
+University Paris Cité	48.845644955480445	2.3184933804245667	Antonio Rausell	https://www.institutimagine.org/en/RausellLab	
 University of Zurich	47.3983206928008	8.54841196493381	Michael Baudis	https://info.baudisgroup.org/group/	
 University of Zurich	47.3983206928008	8.54841196493381	Rahel Paloots	https://info.baudisgroup.org/group/	
 University of Zurich	47.3983206928008	8.54841196493381	Hangjia Zhao	https://info.baudisgroup.org/group/	
