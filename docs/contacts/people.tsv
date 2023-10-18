@@ -1,7 +1,7 @@
 # Please keep the header labels as they are.					
 # At minimum group_lat and group_lon are required for placing a marker.					
 group_label	group_lat	group_lon	item_label	item_link	marker_type
-#University Paris Centre	48.845644955480445	2.3184933804245667	Antonio Rausell	https://www.institutimagine.org/en/RausellLab	marker
+University Paris Centre	48.845644955480445	2.3184933804245667	Antonio Rausell	https://www.institutimagine.org/en/RausellLab	marker
 University of Zurich	47.3983206928008	8.54841196493381	Michael Baudis	https://info.baudisgroup.org/group/	marker
 University of Zurich	47.3983206928008	8.54841196493381	Rahel Paloots	https://info.baudisgroup.org/group/	marker
 University of Zurich	47.3983206928008	8.54841196493381	Hangjia Zhao	https://info.baudisgroup.org/group/	marker
@@ -15,7 +15,7 @@ European Bioinformatics Institute EBI	52.079936724614800	0.18652979910338700	Tim
 European Bioinformatics Institute EBI	52.079936724614800	0.18652979910338700	Kirill Tsukanov	https://www.ebi.ac.uk/about/people/kirill-tsukanov	marker
 University of Bradford	53.7915944357949	-1.7660797296964700	Krzysztof Poterlowicz	https://www.bradford.ac.uk/staff/KPoterlowicz1	marker
 University of Bradford	53.7915944357949	-1.7660797296964700	Katarzyna Kamieniecka	https://elixiruknode.org/team/katarzyna-kamieniecka/	marker
-#University of Bradford	53.7915944357949	-1.7660797296964700	Khaled Jumah	https://www.bradford.ac.uk/staff/kjumah/	marker
+University of Bradford	53.7915944357949	-1.7660797296964700	Khaled Jumah	https://www.bradford.ac.uk/staff/kjumah/	marker
 University of Freiburg	48.014799717966200	7.83356072785665	Bjoern Gruening	http://www.bioinf.uni-freiburg.de/team.html	marker
 ELIXIR	52.07799561917700	0.1868099991033470	Katharina Heil	https://elixir-europe.org/about-us/who-we-are/hub	marker
 ELIXIR	52.07799561917700	0.1868099991033470	Giselle Kerry	https://elixir-europe.org/about-us/who-we-are/hub	marker
