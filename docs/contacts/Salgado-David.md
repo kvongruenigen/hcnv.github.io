@@ -1,11 +1,10 @@
 ---
 title: "David Salgado"
 description: ELIXIR h-CNV Community Co-Lead
-is_contact: true
 name_tag: salgado_d
 ---
 
-* Co-lead ELIXIR hCNV Community
+* former co-lead ELIXIR hCNV Community
 * Aix-Marseille University - INSERM
 
 <!--more-->
