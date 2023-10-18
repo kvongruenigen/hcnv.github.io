@@ -1,6 +1,7 @@
 ---
 title: "David Salgado"
 description: ELIXIR h-CNV Community Co-Lead
+is_contact: false
 name_tag: salgado_d
 ---
 

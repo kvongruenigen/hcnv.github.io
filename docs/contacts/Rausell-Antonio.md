@@ -5,6 +5,7 @@ is_contact: true
 name_tag: rausell_a
 ---
 
+* Co-lead h-CNV community
 * Director, Clinical Bioinformatics lab, Institut Imagine
 * University Hospital Institute (IHU) for Genetic Diseases
 * Associate Professorin Bioinformatics and Genomics, Faculty of Medicine, University Paris Cité
