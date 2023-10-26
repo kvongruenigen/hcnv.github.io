@@ -1,7 +1,7 @@
 site_name: h-CNV Community
 site_description: 'Website of the Human Copy Number Variation community'
 site_author: Michael Baudis
-copyright: '&copy; Copyright 2022 ELIXIR hCNV Members'
+copyright: '&copy; Copyright 2023 ELIXIR hCNV Members'
 repo_name: 'hcnv.github.io'
 
 repo_url: https://github.com/hCNV/hcnv.github.io
