@@ -1,19 +1,17 @@
 ---
 title: "Tim Beck"
-description: Former ELIXIR h-CNV Community Co-Lead
+description: h-CNV Community Contributor
 is_contact: false
-name_tag: beroud_c
+name_tag: beck_t
 ---
 
-* Professor of Human Genetics  
-* Aix-Marseille University - INSERM  
-* Co-lead ELIXIR hCNV Community
-* ELIXIR-FR
-* former h-CNV community co-lead
+* Lecturer in Bioinformatics, University of Leicester
+* ELIXIR UK
+* ELIXIR Beacon contributor
 
 <!--more-->
 
 #### Links
 
-* email [christophe.beroud@inserm.fr](mailto:christophe.beroud@inserm.fr)  
-* web [MMG](https://www.marseille-medical-genetics.org/fr/c-beroud/)  
+* email [timbeck@le.ac.uk](mailto:timbeck@le.ac.uk)  
+* web [University of Leicester](https://le.ac.uk/people/tim-beck)  
