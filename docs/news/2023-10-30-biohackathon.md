@@ -8,8 +8,8 @@ links:
   - '[ELIXIR hCNV Community](https://cnvar.org)'
 ---
 
-![biohackathon logo image](/img/biohackathon-europe-image.png){ style="width: 250px; float: left; margin: 0px 20px 10px 0px;" }
-Members of the hCNV community will participate at this year's
+![biohackathon logo image](/img/biohackathon-europe-image.png){ style="width: 250px; float: left; margin: 0px 30px 20px 0px;" }
+Members of the hCNV community participate at this year's
 Biohackathon Europe event. The main project will address the creation of the template
 for a "beaconized" public resource for reference (_i.e._ not disease associated)
 copy number variation data, including the necessary tooling for the import from
