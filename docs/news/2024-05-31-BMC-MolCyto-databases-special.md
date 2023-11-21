@@ -10,7 +10,7 @@ links:
 
 #### Edited by Jeremy Squire, Federal University of São Paulo, Brazil
 
-![BMC logo image](/img/logo-BMC-small.png){ style="width: 250px; float: right; margin: 0px 30px 20px 0px;" }
+![BMC logo image](/img/logo-BMC-small.png){ style="float: right; margin: 0px 0px 20px 20px;" }
 With potential interest for members of the CNV communities, BMC Molecular Cytogenetics
 is calling for submissions to a new _Collection on Computational Insights into
 Chromosomal Aberrations: Advancing Molecular Cytogenetics using Genomics Databases_.
