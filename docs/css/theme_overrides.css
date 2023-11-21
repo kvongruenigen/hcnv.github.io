@@ -11,7 +11,7 @@
 }
 
 nav.md-tabs {
-  background-color:  var(--md-accent-fg-color);
+  background-color:  #023362;
 }
 
 .md-header__source {
@@ -20,14 +20,27 @@ nav.md-tabs {
     background-position: right; 
 }
 
+h1 {
+    margin-bottom:  0px;
+    padding-bottom:  0px;
+}
+
+h5 {
+    margin-bottom:  0px;
+    padding-bottom:  0px;
+}
+
 h2 {
+/*    
+    border-left: #023362 thin solid;
     border-top:  #023362 thin solid;
     border-bottom:  #023362 thin solid;
+*/
 }
 
 aside.blog-post-aside {
 /*    border-top:  #023362 thin solid;*/
-    margin-top:  12px;
+    margin-top:  0px;
     padding-top:  12px;
 }
 
