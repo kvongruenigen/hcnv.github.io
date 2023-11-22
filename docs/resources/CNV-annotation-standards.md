@@ -100,37 +100,34 @@ representation in 2020.
 
 The [Progenetix](http://progenetix.org) cancer genomics resource store their millions of CNVs
 in as data objects in [MongoDB](http://mongodb.org) document databases. The
-format of the single variants is based on the original GA4GH schema (see above),
-with some extensions and modifications.
-
-Development of the _Progenetix_ format closely follows the work of the GA4GH GKS group adopts core objects and concepts from
-_vr-spec_ [repository](https://github.com/ga4gh/vr-spec).
+format of the single variants is based on the Beacon v2 default model with some
+modifications (e.g. incorporating the VRS 1.3 `RelativeCopyNumber` concept but
+w/ slightly rewrapped components).
 
 The _Progenetix_ data serves as the repository behind the
-[Beacon<span style="color: red; font-weight: 800;">+</span>](http://beacon.progenetix.org) forward looking implementation of the [ELIXIR Beacon](http://beacon-project.io) project.
+[Beacon<span style="color: red; font-weight: 800;">+</span>](http://beaconplus.progenetix.org)
+forward looking implementation of the [ELIXIR Beacon](http://beacon-project.io) project.
+Accordingly, upon export through the API variants are re-mapped to a Beacon v2 representation.
 
 #### Progenetix CNV example
 
-```
+```json
 {
-  _id: ObjectId("5bab576a727983b2e00b8d32"),
-  id: 'pgxvar-5bab576a727983b2e00b8d32',
-  variant_internal_id: '11:52900000-134452384:DEL',
-  callset_id: 'pgxcs-kftvldsu',
-  biosample_id: 'pgxbs-kftva59y',
-  individual_id: 'pgxind-kftx25eh',
-  variant_state: { id: 'EFO:0030067', label: 'copy number loss' },
-  type: 'RelativeCopyNumber',
-  location: {
-    sequence_id: 'refseq:NC_000011.10',
-    type: 'SequenceLocation',
-    interval: {
-      start: { type: 'Number', value: 52900000 },
-      end: { type: 'Number', value: 134452384 }
+  "id": "pgxvar-5bab576a727983b2e00b8d32",
+  "variant_internal_id": "11:52900000-134452384:DEL",
+  "callset_id": "pgxcs-kftvldsu",
+  "biosample_id": "pgxbs-kftva59y",
+  "individual_id": "pgxind-kftx25eh",
+  "variant_state": { "id": "EFO:0030067", "label": "copy number loss" },
+  "type": "RelativeCopyNumber",
+  "location": {
+    "sequence_id": "refseq:NC_000011.10",
+    "chromosome": "11",
+    "type": "SequenceLocation",
+    "interval": { "start": 52900000, "end": 134452384 }
     }
-  },
-  relative_copy_class: 'partial loss',
-  updated: '2022-03-29T14:36:47.454674'
+  }
+  "updated": "2022-03-29T14:36:47.454674"
 }
 ```
 
