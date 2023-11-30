@@ -4,6 +4,7 @@ title: hCNV Community Meeting 2023
 description: 'A visit to the Hinxton motherlode...'
 date: 2023-11-30
 links:
+  - '[Event Page at ELIXIR](https://elixir-europe.org/events/elixir-hcnv-community-f2fhybrid-meeting-0)'
   - '[Presentation: A CNV Resource Built on GA4GH Standards (Michael Baudis)](/pdf/2023-11-30___Michael-Baudis__Progenetix-and-Beacon__ELIXIR-hCNV.pdf)'
   - '[Presentation: hCNV Pipeline for Data Normalization in Oncogenomics (Hangjia Zhao)](/pdf/2023-11-30___Hangjia-Zhao__hCNV-pipeline__ELIXIR-hCNV.pdf)'
 ---
