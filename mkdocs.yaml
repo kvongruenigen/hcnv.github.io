@@ -16,9 +16,9 @@ nav:
   - CNV Annotation Standards: resources/CNV-annotation-standards
   - Databases & Resources: resources
   - CNV References Project: /cnv-reference-resources/
-  - Genome Blog: "http://genome.blog"
   - Contacts: contacts
-  - h-CNV @ ELIXIR: 'https://elixir-europe.org/about-us/implementation-studies/2019-hcnv'
+  - Genome Blog: "http://genome.blog"
+  - h-CNV @ ELIXIR: 'https://elixir-europe.org/communities/human-copy-number-variation'
   - Beacon Project: 'https://beacon-project.io'
 
 ###############################################################################
