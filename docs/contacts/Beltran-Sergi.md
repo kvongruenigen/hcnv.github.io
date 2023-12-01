@@ -5,4 +5,6 @@ is_contact: false
 name_tag: beltran_s
 ---
 
-* CRG  
+* CNAG, Barcelona
+
+* Group Leader, Bioinformatics Analysis Group
