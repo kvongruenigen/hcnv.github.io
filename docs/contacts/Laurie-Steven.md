@@ -1,8 +1,20 @@
 ---
 title: "Steven Laurie"
 description: h-CNV Community Contributor
-is_contact: false
+is_contact: true
 name_tag: laurie_s
 ---
 
-* CNAG, Barcelona 
+* CNAG, Barcelona
+
+* Senior Genomics Data Analyst, specialising in Rare Disease 
+* Lead Solve-RD CNV-Working Group
+* RD-Connect GPAP Product Lead 
+
+<!--more-->
+
+#### Links
+
+* email [steven.laurie@cnag.eu](mailto:steven.laurie@cnag.eu)  
+* web [RD-Connect GPAP](https://platform.rd-connect.eu/#/)  
+* web [CNAG](https://www.cnag.eu/)  
