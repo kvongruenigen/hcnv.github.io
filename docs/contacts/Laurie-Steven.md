@@ -5,4 +5,4 @@ is_contact: false
 name_tag: laurie_s
 ---
 
-* CRG  
+* CNAG, Barcelona 
