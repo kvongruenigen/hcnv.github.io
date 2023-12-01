@@ -6,9 +6,10 @@ date:   2019-12-12
 ---
 
 ### VCF
-
+VCF 4.4 is the most appropriate VCF format to store Structural variants including copy number variants
+* VCF specification [v4.4 PDF](https://samtools.github.io/hts-specs/VCFv4.4.pdf)
+* VCF specification [v4.3 PDF](https://samtools.github.io/hts-specs/VCFv4.3.pdf)
 * VCF specification [v4.2 PDF](https://samtools.github.io/hts-specs/VCFv4.2.pdf)
-
 
 ### BED files and other columnar segment files
 
@@ -26,4 +27,4 @@ For information about some of the used schemas please see the
 
 ---
 
-last update 2023-07-07 by @mbaudis
+last update 2023-07-07 by @tcezard
