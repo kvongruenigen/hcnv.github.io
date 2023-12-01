@@ -15,6 +15,7 @@ name_tag: laurie_s
 
 #### Links
 
-* [steven.laurie@cnag.eu](mailto:steven.laurie@cnag.eu)  
-* [RD-Connect GPAP](https://platform.rd-connect.eu/#/)  
+* [steven.laurie@cnag.eu](mailto:steven.laurie@cnag.eu)
 * [CNAG](https://www.cnag.eu/)  
+* [RD-Connect GPAP](https://platform.rd-connect.eu/#/)  
+
