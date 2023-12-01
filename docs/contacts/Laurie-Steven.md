@@ -9,7 +9,7 @@ name_tag: laurie_s
 
 * Senior Genomics Data Analyst, specialising in Rare Disease 
 * Lead Solve-RD CNV-Working Group
-* RD-Connect GPAP Product Lead 
+* Product Lead RD-Connect GPAP 
 
 <!--more-->
 
