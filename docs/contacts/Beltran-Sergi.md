@@ -7,4 +7,5 @@ name_tag: beltran_s
 
 * CNAG, Barcelona
 
-* Group Leader, Bioinformatics Analysis Group
+* Group Leader, Bioinformatics Analysis Group, CNAG
+* Co-lead Elixir Rare Diseases Community
