@@ -1,4 +1,5 @@
 ---
+template: post.html
 title: 'Beaconize this: Databases for Cancer Genomics and the Development of Open Data Standards'
 description: 'Seminar at the Bioinformatics club of the Centre de Recherche des Cordeliers (CRC)<br/>Université Paris Cité'
 template: post.html 
